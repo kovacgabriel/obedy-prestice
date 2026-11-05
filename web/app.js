@@ -125,4 +125,8 @@ async function load() {
 }
 load().catch(() => { $('#list').replaceChildren(el('p', { class: 'empty' }, 'Nepodařilo se načíst data. Zkuste to později.')); });
 document.addEventListener('visibilitychange', () => { if (!document.hidden) load().catch(() => {}); });
-if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
+if ('serviceWorker' in navigator) {
+  const hadSw = !!navigator.serviceWorker.controller;
+  navigator.serviceWorker.addEventListener('controllerchange', () => { if (hadSw) location.reload(); });
+  navigator.serviceWorker.register('sw.js').catch(() => {});
+}
