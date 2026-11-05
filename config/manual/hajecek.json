@@ -1,0 +1,75 @@
+{
+ "_note": "Ruční přepis obrázkového menu (týden 3.–7. 11.); má přednost před staženými daty.",
+ "days": {
+  "2026-11-03": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "250ml Zelňačka",
+     "price": 35
+    },
+    {
+     "type": "main",
+     "name": "300g Smažený sýr, hranolky, tatarka",
+     "price": 150
+    }
+   ]
+  },
+  "2026-11-04": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "250ml Slepičí vývar s kapáním",
+     "price": 35
+    },
+    {
+     "type": "main",
+     "name": "300g Bratislavské plecko, kynuté knedlíky",
+     "price": 155
+    }
+   ]
+  },
+  "2026-11-05": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "250ml Čočková polévka",
+     "price": 35
+    },
+    {
+     "type": "main",
+     "name": "300g Kuřecí rizoto se zeleninou, sýr",
+     "price": 150
+    }
+   ]
+  },
+  "2026-11-06": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "250ml Dýňová polévka, krutony",
+     "price": 35
+    },
+    {
+     "type": "main",
+     "name": "300g Vepřový steak, gratinované brambory",
+     "price": 155
+    }
+   ]
+  },
+  "2026-11-07": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "250ml Česnečka s vajíčkem, krutony",
+     "price": 35
+    },
+    {
+     "type": "main",
+     "name": "300g Dušená mrkev s vepřovým masem, rozpek",
+     "price": 150
+    }
+   ]
+  }
+ }
+}
