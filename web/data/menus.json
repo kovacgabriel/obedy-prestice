@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-05T12:09:36.832Z",
+ "generatedAt": "2026-11-05T12:12:26.798Z",
  "restaurants": [
   {
    "id": "preskovo",
    "sourceUrl": "https://tadyjepreskovo.cz/",
-   "fetchedAt": "2026-11-05T12:09:36.832Z",
+   "fetchedAt": "2026-11-05T12:12:26.798Z",
    "status": "ok",
-   "lastOkAt": "2026-11-05T12:09:36.832Z",
+   "lastOkAt": "2026-11-05T12:12:26.798Z",
    "days": {
     "2026-11-02": {
      "items": [
@@ -372,49 +372,179 @@
   {
    "id": "crossroad",
    "sourceUrl": "https://crossroadrestaurant.cz/",
-   "fetchedAt": "2026-11-05T12:09:36.832Z",
+   "fetchedAt": "2026-11-05T12:12:26.798Z",
    "status": "ok",
-   "lastOkAt": "2026-11-05T12:09:36.832Z",
+   "lastOkAt": "2026-11-05T12:12:26.798Z",
    "days": {
     "2026-11-02": {
-     "items": [],
-     "images": [
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-02-000239.png",
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-02-000327.png"
-     ],
-     "imageOnly": true
+     "items": [
+      {
+       "type": "soup",
+       "name": "Vývar z uzeného masa s bramborem / kroupami / kořenovou zeleninou",
+       "price": 45
+      },
+      {
+       "type": "main",
+       "name": "150g Katův šleh / jasmínová rýže X hranolky",
+       "price": 169
+      },
+      {
+       "type": "main",
+       "name": "300g Zapékaná rolka z mletého masa se špenátem a sýrem / bramborová kaše",
+       "price": 169
+      },
+      {
+       "type": "main",
+       "name": "150g Kuřecí ONDRÁŠ / salát z kyselého zelí",
+       "price": 175
+      },
+      {
+       "type": "main",
+       "name": "1ks Smažený hermelín v trojobalu / vařený brambor / naše tatarská omáčka",
+       "price": 165
+      },
+      {
+       "type": "weekly",
+       "name": "Smažené blaťácké zlato v trojobalu / jemné bramborové pyré s petrželkou / naše tatarská omáčka",
+       "price": 169
+      }
+     ]
     },
     "2026-11-03": {
-     "items": [],
-     "images": [
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-02-000249.png",
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-02-000327.png"
-     ],
-     "imageOnly": true
+     "items": [
+      {
+       "type": "soup",
+       "name": "Frankfurtská",
+       "price": 45
+      },
+      {
+       "type": "main",
+       "name": "150g Segedínský guláš / houskový knedlík",
+       "price": 169
+      },
+      {
+       "type": "main",
+       "name": "1ks Pštrosí vejce / vařený brambor / zelenina",
+       "price": 175
+      },
+      {
+       "type": "main",
+       "name": "350g Zapečené bramborové noky s kuřecím masem / čerstvým špenátem / česnekem / smetanou",
+       "price": 175
+      },
+      {
+       "type": "main",
+       "name": "200g Vepřová játra na grilu / hranolky / naše tatarská omáčka",
+       "price": 165
+      },
+      {
+       "type": "weekly",
+       "name": "Smažené blaťácké zlato v trojobalu / jemné bramborové pyré s petrželkou / naše tatarská omáčka",
+       "price": 169
+      }
+     ]
     },
     "2026-11-04": {
-     "items": [],
-     "images": [
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-02-000301.png",
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-02-000327.png"
-     ],
-     "imageOnly": true
+     "items": [
+      {
+       "type": "soup",
+       "name": "Kuřecí vývar s masem / rýží / kořenovou zeleninou",
+       "price": 45
+      },
+      {
+       "type": "main",
+       "name": "1ks Španělský ptáček / houskový knedlík X rýže",
+       "price": 179
+      },
+      {
+       "type": "main",
+       "name": "120g Pečená vepřová krkovice / špenát / chlupatý knedlík",
+       "price": 169
+      },
+      {
+       "type": "main",
+       "name": "350g MILÁNSKÉ ŠPAGETY / STROUHANÝ SÝR",
+       "price": 165
+      },
+      {
+       "type": "main",
+       "name": "150g Kuřecí řízečky v cornflakes / mačkaný brambor s máslem / fresh salátek s vinaigrette zálivkou",
+       "price": 175
+      },
+      {
+       "type": "weekly",
+       "name": "Smažené blaťácké zlato v trojobalu / jemné bramborové pyré s petrželkou / naše tatarská omáčka",
+       "price": 169
+      }
+     ]
     },
     "2026-11-05": {
-     "items": [],
-     "images": [
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-02-004058.png",
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-02-000327.png"
-     ],
-     "imageOnly": true
+     "items": [
+      {
+       "type": "soup",
+       "name": "Zabijačková",
+       "price": 45
+      },
+      {
+       "type": "main",
+       "name": "120g Hovězí vařené / křenová omáčka / variace knedlíků",
+       "price": 175
+      },
+      {
+       "type": "main",
+       "name": "½ Pečené koleno / sous vide / kedlubnové zelí / houskový knedlík",
+       "price": 179
+      },
+      {
+       "type": "main",
+       "name": "1ks CLUB SANDWICH s trhaným vepřovým masem / coleslaw salát / čedarová omáčka / mix listových salátů / naše bramborové chipsy",
+       "price": 189
+      },
+      {
+       "type": "main",
+       "name": "1ks Kuřecí špíz s čerstvou zeleninou / gratinovaný brambor",
+       "price": 175
+      },
+      {
+       "type": "weekly",
+       "name": "Smažené blaťácké zlato v trojobalu / jemné bramborové pyré s petrželkou / naše tatarská omáčka",
+       "price": 169
+      }
+     ]
     },
     "2026-11-06": {
-     "items": [],
-     "images": [
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-02-000319.png",
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-02-000327.png"
-     ],
-     "imageOnly": true
+     "items": [
+      {
+       "type": "soup",
+       "name": "Hovězí vývar s játrovou rýží / kořenovou zeleninou",
+       "price": 45
+      },
+      {
+       "type": "main",
+       "name": "150g Směs z vepřové panenky a zeleniny v našem bramboráku",
+       "price": 179
+      },
+      {
+       "type": "main",
+       "name": "200g Hovězí líčka na červeném víně a kořenové zelenině / bramborová kaše",
+       "price": 189
+      },
+      {
+       "type": "main",
+       "name": "220g GRILL MIX / kuřecí prso, vepřová panenka / pepřová omáčka / bramborové krokety",
+       "price": 189
+      },
+      {
+       "type": "main",
+       "name": "4ks Tvarohové švestkové knedlíky obalené v máku / vanilková omáčka",
+       "price": 169
+      },
+      {
+       "type": "weekly",
+       "name": "Smažené blaťácké zlato v trojobalu / jemné bramborové pyré s petrželkou / naše tatarská omáčka",
+       "price": 169
+      }
+     ]
     },
     "2026-10-31": {
      "items": [],
@@ -436,9 +566,9 @@
   {
    "id": "hajecek",
    "sourceUrl": "https://www.cukrarnavhajecku.cz/poledni-menu/",
-   "fetchedAt": "2026-11-05T12:09:36.832Z",
+   "fetchedAt": "2026-11-05T12:12:26.798Z",
    "status": "ok",
-   "lastOkAt": "2026-11-05T12:09:36.832Z",
+   "lastOkAt": "2026-11-05T12:12:26.798Z",
    "days": {
     "2026-11-03": {
      "items": [],
