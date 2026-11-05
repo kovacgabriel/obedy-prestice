@@ -56,15 +56,14 @@ const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ''); } 
 const price = (p) => (p == null ? '' : `${p} Kč`);
 
 function itemRow(it) {
-  return el('div', { class: 'item ' + it.type },
-    el('div', { class: 'n' }, it.name,
-      (it.allergens?.length || it.tags?.length) ? el('span', { class: 'al' }, [...(it.tags || []), it.allergens?.length ? 'alergeny: ' + it.allergens.join(', ') : ''].filter(Boolean).join(' · ')) : null),
-    el('div', { class: 'p' }, price(it.price)));
+  return el('div', { class: 'item' }, el('div', { class: 'n' }, it.name), el('div', { class: 'p' }, price(it.price)));
 }
 
 function section(title, items) {
   return items.length ? [el('div', { class: 'sec' }, title), ...items.map(itemRow)] : [];
 }
+
+const initials = (name) => name.replace(/[^\p{L}\s]/gu, '').split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0].toUpperCase()).join('');
 
 function card(r) {
   const m = data.restaurants.find((x) => x.id === r.id) || {};
@@ -74,13 +73,12 @@ function card(r) {
     const it = day.items;
     body.push(...section('Polévka', it.filter((i) => i.type === 'soup')),
       ...section('Hlavní jídla', it.filter((i) => i.type === 'main')),
-      ...section('Celý týden', it.filter((i) => i.type === 'weekly')));
-  } else if (day?.images?.length) {
-    day.images.forEach((src) => body.push(el('img', { class: 'menu-img', src, alt: `Menu ${r.name}`, loading: 'lazy' })));
+      ...section('Nabídka na celý týden', it.filter((i) => i.type === 'weekly')));
   } else if (r.closedWeekdays?.includes(weekday(selected)) && m.status === 'ok') {
     body.push(el('p', { class: 'empty' }, 'V tento den zavřeno.'));
   } else {
-    const msg = m.status === 'unsupported' ? 'Automatické stahování zatím není nastavené.'
+    const msg = day?.imageOnly ? 'Menu je zveřejněné jen jako obrázek.'
+      : m.status === 'unsupported' ? 'Automatické stahování zatím není nastavené.'
       : m.status === 'error' ? 'Menu se nepodařilo načíst.' : 'Menu zatím nezveřejněno.';
     body.push(el('p', { class: 'note' }, msg + ' ', el('a', { href: r.source.url, target: '_blank', rel: 'noopener' }, 'Otevřít zdroj')));
   }
@@ -89,16 +87,18 @@ function card(r) {
   const metaTxt = m.status === 'unsupported' ? `Zdroj: ${host(r.source.url)}`
     : m.fetchedAt ? `Zdroj: ${host(r.source.url)} · staženo ${fmtWhen(m.fetchedAt)}` + (m.status === 'error' && m.lastOkAt ? ` · poslední úspěšně ${fmtWhen(m.lastOkAt)}` : '') : '';
 
-  return el('article', { class: 'card' },
-    el('header', {}, el('div', {}, el('h2', {}, r.name), el('p', { class: 'addr' }, r.address || '')),
+  return el('article', { class: 'card', style: `--c:${r.color || '#555'}` },
+    el('header', { class: 'rh' },
+      el('span', { class: 'badge', 'aria-hidden': 'true' }, r.badge || initials(r.name)),
+      el('div', { class: 'rt' }, el('h2', {}, r.name), el('p', { class: 'addr' }, r.address || '')),
       el('button', { class: 'fav', 'aria-pressed': String(favs.has(r.id)), 'aria-label': 'Oblíbená', title: 'Oblíbená',
         onclick: () => { favs.has(r.id) ? favs.delete(r.id) : favs.add(r.id); saveFavs(); renderList(); } }, favs.has(r.id) ? '★' : '☆')),
-    ...body,
-    el('div', { class: 'actions' },
-      el('a', { class: 'btn primary', href: r.fullMenuUrl, target: '_blank', rel: 'noopener' }, 'Celý jídelní lístek'),
-      r.address ? el('a', { class: 'btn', href: mapUrl(r.address + ', Česko'), target: '_blank', rel: 'noopener' }, 'Mapa') : null,
-      r.phone ? el('a', { class: 'btn', href: 'tel:' + r.phone }, 'Zavolat') : null),
-    metaTxt ? el('p', { class: 'meta' + (stale || m.status === 'error' ? ' stale' : '') }, metaTxt) : null);
+    el('div', { class: 'cb' }, ...body,
+      el('div', { class: 'actions' },
+        el('a', { class: 'btn primary', href: r.fullMenuUrl, target: '_blank', rel: 'noopener' }, 'Celý jídelní lístek'),
+        r.address ? el('a', { class: 'btn', href: mapUrl(r.address + ', Česko'), target: '_blank', rel: 'noopener' }, 'Mapa') : null,
+        r.phone ? el('a', { class: 'btn', href: 'tel:' + r.phone }, 'Zavolat') : null),
+      metaTxt ? el('p', { class: 'meta' + (stale || m.status === 'error' ? ' stale' : '') }, metaTxt) : null));
 }
 
 function renderList() {

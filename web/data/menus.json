@@ -381,47 +381,54 @@
      "images": [
       "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-02-000239.png",
       "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-02-000327.png"
-     ]
+     ],
+     "imageOnly": true
     },
     "2026-11-03": {
      "items": [],
      "images": [
       "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-02-000249.png",
       "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-02-000327.png"
-     ]
+     ],
+     "imageOnly": true
     },
     "2026-11-04": {
      "items": [],
      "images": [
       "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-02-000301.png",
       "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-02-000327.png"
-     ]
+     ],
+     "imageOnly": true
     },
     "2026-11-05": {
      "items": [],
      "images": [
       "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-02-004058.png",
       "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-02-000327.png"
-     ]
+     ],
+     "imageOnly": true
     },
     "2026-11-06": {
      "items": [],
      "images": [
       "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-02-000319.png",
       "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-02-000327.png"
-     ]
+     ],
+     "imageOnly": true
     },
     "2026-10-31": {
      "items": [],
      "images": [
       "https://crossroadrestaurant.cz/wp-content/uploads/2026/10/2-1.png"
-     ]
+     ],
+     "imageOnly": true
     },
     "2026-11-01": {
      "items": [],
      "images": [
       "https://crossroadrestaurant.cz/wp-content/uploads/2026/10/2-1.png"
-     ]
+     ],
+     "imageOnly": true
     }
    },
    "cache": {}
@@ -437,25 +444,29 @@
      "items": [],
      "images": [
       "https://7ba15f7b7b.clvaw-cdnwnd.com/4c9a253347665455c5d067a206520631/200000604-6aae56aae6/Sn%C3%ADmek%20obrazovky%202026-11-02%20152751.png?ph=7ba15f7b7b"
-     ]
+     ],
+     "imageOnly": true
     },
     "2026-11-04": {
      "items": [],
      "images": [
       "https://7ba15f7b7b.clvaw-cdnwnd.com/4c9a253347665455c5d067a206520631/200000604-6aae56aae6/Sn%C3%ADmek%20obrazovky%202026-11-02%20152751.png?ph=7ba15f7b7b"
-     ]
+     ],
+     "imageOnly": true
     },
     "2026-11-05": {
      "items": [],
      "images": [
       "https://7ba15f7b7b.clvaw-cdnwnd.com/4c9a253347665455c5d067a206520631/200000604-6aae56aae6/Sn%C3%ADmek%20obrazovky%202026-11-02%20152751.png?ph=7ba15f7b7b"
-     ]
+     ],
+     "imageOnly": true
     },
     "2026-11-06": {
      "items": [],
      "images": [
       "https://7ba15f7b7b.clvaw-cdnwnd.com/4c9a253347665455c5d067a206520631/200000604-6aae56aae6/Sn%C3%ADmek%20obrazovky%202026-11-02%20152751.png?ph=7ba15f7b7b"
-     ]
+     ],
+     "imageOnly": true
     }
    },
    "cache": {

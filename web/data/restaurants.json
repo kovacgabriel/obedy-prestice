@@ -1,44 +1,50 @@
 {
- "timezone": "Europe/Prague",
- "restaurants": [
-  {
-   "id": "preskovo",
-   "name": "Tady je Přeškovo!",
-   "subtitle": "restaurace & pivovar (dříve U Přeška)",
-   "address": "Masarykovo nám. 311, Přeštice",
-   "phone": "+420736111133",
-   "fullMenuUrl": "https://tadyjepreskovo.cz/",
-   "source": {
-    "adapter": "preskovo",
-    "url": "https://tadyjepreskovo.cz/"
-   }
-  },
-  {
-   "id": "crossroad",
-   "name": "Crossroad restaurant & café",
-   "subtitle": "rodinná restaurace",
-   "address": "Třída 1. máje 515, Přeštice",
-   "phone": "+420733538809",
-   "fullMenuUrl": "https://crossroadrestaurant.cz/#nabidka",
-   "source": {
-    "adapter": "crossroad",
-    "url": "https://crossroadrestaurant.cz/"
-   }
-  },
-  {
-   "id": "hajecek",
-   "name": "Cukrárna v Háječku",
-   "subtitle": "cukrárna & polední menu",
-   "address": "V Háječku 193, Přeštice",
-   "fullMenuUrl": "https://www.cukrarnavhajecku.cz/poledni-menu/",
-   "phone": "+420377982854",
-   "closedWeekdays": [
-    0
-   ],
-   "source": {
-    "adapter": "hajecek",
-    "url": "https://www.cukrarnavhajecku.cz/poledni-menu/"
-   }
-  }
- ]
+  "timezone": "Europe/Prague",
+  "restaurants": [
+    {
+      "id": "preskovo",
+      "name": "Tady je Přeškovo!",
+      "subtitle": "restaurace & pivovar (dříve U Přeška)",
+      "address": "Masarykovo nám. 311, Přeštice",
+      "phone": "+420736111133",
+      "fullMenuUrl": "https://tadyjepreskovo.cz/",
+      "source": {
+        "adapter": "preskovo",
+        "url": "https://tadyjepreskovo.cz/"
+      },
+      "color": "#c2410c",
+      "badge": "PŘ"
+    },
+    {
+      "id": "crossroad",
+      "name": "Crossroad restaurant & café",
+      "subtitle": "rodinná restaurace",
+      "address": "Třída 1. máje 515, Přeštice",
+      "phone": "+420733538809",
+      "fullMenuUrl": "https://crossroadrestaurant.cz/#nabidka",
+      "source": {
+        "adapter": "crossroad",
+        "url": "https://crossroadrestaurant.cz/"
+      },
+      "color": "#2563eb",
+      "badge": "CR"
+    },
+    {
+      "id": "hajecek",
+      "name": "Cukrárna v Háječku",
+      "subtitle": "cukrárna & polední menu",
+      "address": "V Háječku 193, Přeštice",
+      "fullMenuUrl": "https://www.cukrarnavhajecku.cz/poledni-menu/",
+      "phone": "+420377982854",
+      "closedWeekdays": [
+        0
+      ],
+      "source": {
+        "adapter": "hajecek",
+        "url": "https://www.cukrarnavhajecku.cz/poledni-menu/"
+      },
+      "color": "#be185d",
+      "badge": "VH"
+    }
+  ]
 }

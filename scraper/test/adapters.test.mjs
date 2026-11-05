@@ -34,3 +34,12 @@ test('Háječek: jeden obrázek na týden, Út–Pá, ne starý týden', () => {
   const stale = hajBuild(p, { today: '2026-11-10', cache: { seen: { [p.image]: '2026-11-05' } } });
   assert.deepEqual(stale.days, {});
 });
+
+test('Háječek: přepis týdenního obrázku do dnů', () => {
+  const p = hajParse(fx('hajecek.html'), 'https://www.cukrarnavhajecku.cz/poledni-menu/');
+  const transcript = { 'Út': [{ type: 'soup', name: 'Čočková', price: 35 }, { type: 'main', name: 'Svíčková', price: 159 }], 'St': [{ type: 'main', name: 'Guláš', price: 149 }] };
+  const out = hajBuild(p, { today: '2026-11-05', transcript });
+  assert.equal(out.days['2026-11-03'].items.length, 2);
+  assert.equal(out.days['2026-11-03'].items[0].type, 'soup');
+  assert.equal(out.days['2026-11-05'].imageOnly, true); // čtvrtek v přepisu chybí
+});

@@ -1,10 +1,10 @@
 // Crossroad – denní menu je na webu jako obrázky (screenshoty) v záložkách po dnech.
 // Adaptér najde obrázky pro každý den. Pokud je nastaven ANTHROPIC_API_KEY, přepíše je
-// do textu (Claude vision, výsledek se cachuje podle URL obrázku); jinak appka zobrazí přímo obrázek.
+// do textu (Claude vision, výsledek se cachuje podle URL obrázku). Bez klíče zůstane u dne jen odkaz (imageOnly).
 import * as cheerio from 'cheerio';
-import { fetchText, fetchBuffer, parseCzDate } from '../lib.mjs';
+import { fetchText, parseCzDate, transcribeImage, normItems } from '../lib.mjs';
 
-const MODEL = process.env.OCR_MODEL || 'claude-haiku-5-5';
+const PROMPT = 'Toto je denní menu restaurace. Přepiš ho do JSON pole (bez dalšího textu): [{"type":"soup"|"main"|"weekly","name":"...","price":číslo v Kč}]. Sekce POLÉVKA = soup, NABÍDKA ŠÉFKUCHAŘE NA CELÝ TÝDEN = weekly, ostatní jídla = main. Přepisuj věrně, nic nevymýšlej, žádné alergeny.';
 
 export function parse(html, baseUrl = 'https://crossroadrestaurant.cz/') {
   const $ = cheerio.load(html);
@@ -26,45 +26,22 @@ export function parse(html, baseUrl = 'https://crossroadrestaurant.cz/') {
   return { days };
 }
 
-async function transcribe(url, apiKey) {
-  const buf = await fetchBuffer(url);
-  const media = url.toLowerCase().endsWith('.png') ? 'image/png' : 'image/jpeg';
-  const res = await fetch('https://api.anthropic.com/v1/messages', {
-    method: 'POST',
-    headers: { 'x-api-key': apiKey, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' },
-    body: JSON.stringify({
-      model: MODEL,
-      max_tokens: 1500,
-      messages: [{ role: 'user', content: [
-        { type: 'image', source: { type: 'base64', media_type: media, data: buf.toString('base64') } },
-        { type: 'text', text: 'Toto je denní menu restaurace. Přepiš ho do JSON pole (bez dalšího textu): [{"type":"soup"|"main","name":"...","price":číslo v Kč}]. Sekce POLÉVKA = soup, ostatní jídla = main. Text přepisuj věrně, nic nevymýšlej.' },
-      ] }],
-    }),
-    signal: AbortSignal.timeout(60000),
-  });
-  if (!res.ok) throw new Error(`Anthropic API ${res.status}`);
-  const j = await res.json();
-  const txt = j.content?.map((c) => c.text || '').join('') || '';
-  const arr = JSON.parse(txt.slice(txt.indexOf('['), txt.lastIndexOf(']') + 1));
-  return arr.filter((x) => x && x.name).map((x) => ({
-    type: x.type === 'soup' ? 'soup' : 'main', name: String(x.name).trim(), price: Number.isFinite(+x.price) ? +x.price : null, allergens: [], tags: [],
-  }));
-}
-
 export async function scrape(source, { cache = {} } = {}) {
   const html = await fetchText(source.url);
   const out = parse(html, source.url);
   if (!Object.keys(out.days).length) throw new Error('Nenašel jsem žádné denní obrázky s menu (změnila se struktura?).');
   const apiKey = process.env.ANTHROPIC_API_KEY;
   out.cache = { ...cache };
-  if (apiKey) {
+  if (!apiKey) for (const day of Object.values(out.days)) day.imageOnly = true;
+  else {
     for (const day of Object.values(out.days)) {
       for (const img of day.images) {
         try {
-          if (!out.cache[img]) out.cache[img] = await transcribe(img, apiKey);
+          if (!out.cache[img]) out.cache[img] = normItems(await transcribeImage(img, PROMPT, { apiKey }));
           day.items.push(...out.cache[img]);
         } catch (e) {
           console.warn(`  přepis ${img} selhal: ${e.message}`);
+          day.imageOnly = true;
         }
       }
     }
