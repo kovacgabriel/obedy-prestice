@@ -1,0 +1,52 @@
+name: Scrape & deploy
+
+on:
+  schedule:
+    # GitHub cron je v UTC. Po–pá každou půlhodinu 8:00–10:30 UTC = 9–11:30 (zima) / 10–12:30 (léto) pražského času.
+    - cron: '7,37 8-10 * * 1-5'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['web/**', 'config/**', 'scraper/**', '.github/workflows/scrape.yml']
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm, cache-dependency-path: scraper/package-lock.json }
+      - run: npm ci
+        working-directory: scraper
+      - run: npm test
+        working-directory: scraper
+      - name: Scrape
+        run: node src/run.mjs
+        working-directory: scraper
+        env:
+          # volitelné: přepis obrázkového menu (Crossroad) do textu
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: Commit data (zachová poslední známý stav)
+        run: |
+          git config user.name "menu-bot"; git config user.email "menu-bot@users.noreply.github.com"
+          git add web/data
+          git diff --cached --quiet || (git commit -m "data: aktualizace menu" && git push)
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: web }
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: { name: github-pages, url: '${{ steps.d.outputs.page_url }}' }
+    steps:
+      - id: d
+        uses: actions/deploy-pages@v4

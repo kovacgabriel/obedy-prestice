@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Obědy v Přešticích</title>
+<meta name="description" content="Denní menu restaurací v Přešticích na jednom místě.">
+<meta name="theme-color" content="#f6f3ee" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141414" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Obědy">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <h1>Obědy v Přešticích</h1>
+  <p id="sub" class="sub"></p>
+  <nav id="days" class="days" aria-label="Dny"></nav>
+</header>
+<main id="list" aria-live="polite"><p class="loading">Načítám…</p></main>
+<footer class="foot"><span id="updated"></span></footer>
+<script src="app.js" type="module"></script>
+</body>
+</html>
