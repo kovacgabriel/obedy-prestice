@@ -50,8 +50,6 @@ function select(d) {
   $('#sub').textContent = (d === today ? 'Dnes, ' : '') + DOW_LONG[weekday(d)] + ' ' + fmtShort(d);
 }
 
-const isIOS = /iP(hone|ad|od)/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-const mapUrl = (a) => isIOS ? `https://maps.apple.com/?q=${encodeURIComponent(a)}` : `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(a)}`;
 const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return u; } };
 const price = (p) => (p == null ? '' : `${p} Kč`);
 
@@ -96,7 +94,6 @@ function card(r) {
     el('div', { class: 'cb' }, ...body,
       el('div', { class: 'actions' },
         el('a', { class: 'btn primary', href: r.fullMenuUrl, target: '_blank', rel: 'noopener' }, 'Celý jídelní lístek'),
-        r.address ? el('a', { class: 'btn', href: mapUrl(r.address + ', Česko'), target: '_blank', rel: 'noopener' }, 'Mapa') : null,
         r.phone ? el('a', { class: 'btn', href: 'tel:' + r.phone }, 'Zavolat') : null),
       metaTxt ? el('p', { class: 'meta' + (stale || m.status === 'error' ? ' stale' : '') }, metaTxt) : null));
 }
