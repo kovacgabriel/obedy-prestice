@@ -3,7 +3,7 @@
   "restaurants": [
     {
       "id": "preskovo",
-      "name": "Tady je Přeškovo!",
+      "name": "Pivovar Přešek",
       "subtitle": "restaurace & pivovar (dříve U Přeška)",
       "address": "Masarykovo nám. 311, Přeštice",
       "phone": "+420736111133",
@@ -17,7 +17,7 @@
     },
     {
       "id": "crossroad",
-      "name": "Crossroad restaurant & café",
+      "name": "Restaurace Crossroad",
       "subtitle": "rodinná restaurace",
       "address": "Třída 1. máje 515, Přeštice",
       "phone": "+420733538809",
@@ -31,7 +31,7 @@
     },
     {
       "id": "hajecek",
-      "name": "Cukrárna v Háječku",
+      "name": "U Baxů",
       "subtitle": "cukrárna & polední menu",
       "address": "V Háječku 193, Přeštice",
       "fullMenuUrl": "https://www.cukrarnavhajecku.cz/poledni-menu/",
@@ -44,7 +44,7 @@
         "url": "https://www.cukrarnavhajecku.cz/poledni-menu/"
       },
       "color": "#be185d",
-      "badge": "VH"
+      "badge": "UB"
     }
   ]
 }
