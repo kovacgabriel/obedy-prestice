@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-05T12:18:42.340Z",
+ "generatedAt": "2026-11-06T15:51:40.802Z",
  "restaurants": [
   {
    "id": "preskovo",
    "sourceUrl": "https://tadyjepreskovo.cz/",
-   "fetchedAt": "2026-11-05T12:18:42.340Z",
+   "fetchedAt": "2026-11-06T15:51:40.802Z",
    "status": "ok",
-   "lastOkAt": "2026-11-05T12:18:42.340Z",
+   "lastOkAt": "2026-11-06T15:51:40.802Z",
    "days": {
     "2026-11-02": {
      "items": [
@@ -311,13 +311,14 @@
       },
       {
        "type": "main",
-       "name": "Čočka na kyselo, sázené vejce, nakládaná okurka",
-       "price": 169,
+       "name": "Grilovaná vepřová panenka s krémovou smetanovo-liškovou omáčkou, bramborový fondán s parmazánem",
+       "price": 195,
        "allergens": [
-        "1",
-        "3"
+        "7"
        ],
-       "tags": []
+       "tags": [
+        "bezlepkové"
+       ]
       },
       {
        "type": "main",
@@ -333,14 +334,13 @@
       },
       {
        "type": "main",
-       "name": "Grilovaná vepřová panenka s krémovou smetanovo-liškovou omáčkou, bramborový fondán s parmazánem",
-       "price": 195,
+       "name": "Čočka na kyselo, sázené vejce, nakládaná okurka",
+       "price": 169,
        "allergens": [
-        "7"
+        "1",
+        "3"
        ],
-       "tags": [
-        "bezlepkové"
-       ]
+       "tags": []
       },
       {
        "type": "weekly",
@@ -366,15 +366,87 @@
        ]
       }
      ]
+    },
+    "2026-11-07": {
+     "items": [
+      {
+       "type": "soup",
+       "name": "Čočková polévka s párkem",
+       "price": 59,
+       "allergens": [
+        "1"
+       ],
+       "tags": []
+      },
+      {
+       "type": "main",
+       "name": "Grilovaná kotleta se slaninou a uzeným sýrem, farmářské brambory, silná masová šťáva",
+       "price": 195,
+       "allergens": [
+        "7"
+       ],
+       "tags": [
+        "bezlepkové"
+       ]
+      },
+      {
+       "type": "main",
+       "name": "Obalovaný smažený květák, vařené brambory s pažitkou, domácí tatarská omáčka",
+       "price": 189,
+       "allergens": [
+        "1",
+        "3",
+        "7",
+        "10"
+       ],
+       "tags": []
+      }
+     ]
+    },
+    "2026-11-08": {
+     "items": [
+      {
+       "type": "soup",
+       "name": "Čočková polévka s párkem",
+       "price": 59,
+       "allergens": [
+        "1"
+       ],
+       "tags": []
+      },
+      {
+       "type": "main",
+       "name": "Grilovaná kotleta se slaninou a uzeným sýrem, farmářské brambory, silná masová šťáva",
+       "price": 195,
+       "allergens": [
+        "7"
+       ],
+       "tags": [
+        "bezlepkové"
+       ]
+      },
+      {
+       "type": "main",
+       "name": "Obalovaný smažený květák, vařené brambory s pažitkou, domácí tatarská omáčka",
+       "price": 189,
+       "allergens": [
+        "1",
+        "3",
+        "7",
+        "10"
+       ],
+       "tags": []
+      }
+     ]
     }
    }
   },
   {
    "id": "crossroad",
    "sourceUrl": "https://crossroadrestaurant.cz/",
-   "fetchedAt": "2026-11-05T12:18:42.340Z",
+   "fetchedAt": "2026-11-06T15:51:40.802Z",
    "status": "ok",
-   "lastOkAt": "2026-11-05T12:18:42.340Z",
+   "lastOkAt": "2026-11-06T15:51:40.802Z",
    "days": {
     "2026-11-02": {
      "items": [
@@ -566,9 +638,9 @@
   {
    "id": "hajecek",
    "sourceUrl": "https://www.cukrarnavhajecku.cz/poledni-menu/",
-   "fetchedAt": "2026-11-05T12:18:42.340Z",
+   "fetchedAt": "2026-11-06T15:51:40.802Z",
    "status": "ok",
-   "lastOkAt": "2026-11-05T12:18:42.340Z",
+   "lastOkAt": "2026-11-06T15:51:40.802Z",
    "days": {
     "2026-11-03": {
      "items": [
@@ -643,7 +715,8 @@
    },
    "cache": {
     "seen": {
-     "https://7ba15f7b7b.clvaw-cdnwnd.com/4c9a253347665455c5d067a206520631/200000604-6aae56aae6/Sn%C3%ADmek%20obrazovky%202026-11-02%20152751.png?ph=7ba15f7b7b": "2026-11-05"
+     "https://7ba15f7b7b.clvaw-cdnwnd.com/4c9a253347665455c5d067a206520631/200000604-6aae56aae6/Sn%C3%ADmek%20obrazovky%202026-11-02%20152751.png?ph=7ba15f7b7b": "2026-11-05",
+     "https://7ba15f7b7b.clvaw-cdnwnd.com/4c9a253347665455c5d067a206520631/200000608-eecd2eecd5/Sn%C3%ADmek%20obrazovky%202026-11-05%20200335-6.png?ph=7ba15f7b7b": "2026-11-06"
     }
    }
   }
