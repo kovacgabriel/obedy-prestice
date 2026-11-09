@@ -1,19 +1,19 @@
 {
- "generatedAt": "2026-11-06T15:51:40.802Z",
+ "generatedAt": "2026-11-09T18:39:31.685Z",
  "restaurants": [
   {
    "id": "preskovo",
    "sourceUrl": "https://tadyjepreskovo.cz/",
-   "fetchedAt": "2026-11-06T15:51:40.802Z",
+   "fetchedAt": "2026-11-09T18:39:31.685Z",
    "status": "ok",
-   "lastOkAt": "2026-11-06T15:51:40.802Z",
+   "lastOkAt": "2026-11-09T18:39:31.685Z",
    "days": {
-    "2026-11-02": {
+    "2026-11-09": {
      "items": [
       {
        "type": "soup",
-       "name": "Česneková polévka s brambory, uzeninou a sýrem, chlebové krutony",
-       "price": 59,
+       "name": "Brokolicový krém s máslovými krutony",
+       "price": 55,
        "allergens": [
         "1",
         "7"
@@ -22,30 +22,8 @@
       },
       {
        "type": "main",
-       "name": "Grilovaná tortilla s trhaným vepřovým masem, čedarem a BBQ majonézou, smažené bramborové hranolky",
-       "price": 189,
-       "allergens": [
-        "1",
-        "3",
-        "7"
-       ],
-       "tags": []
-      },
-      {
-       "type": "main",
-       "name": "Špagety se smetanovou omáčkou a parmskou šunkou, strouhaný parmazán",
-       "price": 169,
-       "allergens": [
-        "1",
-        "3",
-        "7"
-       ],
-       "tags": []
-      },
-      {
-       "type": "main",
-       "name": "Kuřecí roláda plněná jemnou masovou fáší, špenátem a mrkví, mačkané brambory s jarní cibulkou, silná šťáva z výpeku",
-       "price": 179,
+       "name": "Grilovaná vepřová panenka, celerové pyré, glazovaná baby karotka, silná masová šťáva",
+       "price": 195,
        "allergens": [
         "7",
         "9"
@@ -55,212 +33,8 @@
        ]
       },
       {
-       "type": "weekly",
-       "name": "Smažený holandský řízek se sýrem, máslová bramborová kaše, nakládaná okurka",
-       "price": 189,
-       "allergens": [
-        "1",
-        "3",
-        "7"
-       ],
-       "tags": []
-      },
-      {
-       "type": "weekly",
-       "name": "Grilovaný filet z lososa, pyré z pečeného květáku, glazovaná baby mrkev, smetanovo-bylinková omáčka",
-       "price": 249,
-       "allergens": [
-        "4",
-        "7"
-       ],
-       "tags": [
-        "bezlepkové"
-       ]
-      }
-     ]
-    },
-    "2026-11-03": {
-     "items": [
-      {
-       "type": "soup",
-       "name": "Kulajda s lesními houbami a brambory, vařené vejce, čerstvý kopr",
-       "price": 59,
-       "allergens": [
-        "3",
-        "7"
-       ],
-       "tags": [
-        "bezlepkové"
-       ]
-      },
-      {
        "type": "main",
-       "name": "Kynuté švestkové knedlíky sypané moučkovým cukrem a strouhaným tvarohem, přelité rozpuštěným máslem",
-       "price": 169,
-       "allergens": [
-        "1",
-        "3",
-        "7"
-       ],
-       "tags": []
-      },
-      {
-       "type": "main",
-       "name": "Znojemská hovězí pečeně, omáčka s nakládanými okurkami, dušená jasmínová rýže",
-       "price": 189,
-       "allergens": [
-        "1",
-        "9"
-       ],
-       "tags": []
-      },
-      {
-       "type": "main",
-       "name": "Grilované kuřecí prso s pečenou zeleninou a bramborami grenaille, silná masová šťáva",
-       "price": 179,
-       "allergens": [
-        "9"
-       ],
-       "tags": [
-        "bezlepkové"
-       ]
-      },
-      {
-       "type": "weekly",
-       "name": "Smažený holandský řízek se sýrem, máslová bramborová kaše, nakládaná okurka",
-       "price": 189,
-       "allergens": [
-        "1",
-        "3",
-        "7"
-       ],
-       "tags": []
-      },
-      {
-       "type": "weekly",
-       "name": "Grilovaný filet z lososa, pyré z pečeného květáku, glazovaná baby mrkev, smetanovo-bylinková omáčka",
-       "price": 249,
-       "allergens": [
-        "4",
-        "7"
-       ],
-       "tags": [
-        "bezlepkové"
-       ]
-      }
-     ]
-    },
-    "2026-11-04": {
-     "items": [
-      {
-       "type": "soup",
-       "name": "Kuřecí vývar s masem kořenovou zeleninou, vaječné nudle",
-       "price": 59,
-       "allergens": [
-        "1",
-        "3",
-        "9"
-       ],
-       "tags": []
-      },
-      {
-       "type": "main",
-       "name": "Salát CAESAR, filírované kuřecí prso z grilu (římský salát, pečivové krutony s vaječným žloutky, ančovičky, hoblinky parmazánu)",
-       "price": 179,
-       "allergens": [
-        "1",
-        "3",
-        "4",
-        "7",
-        "10"
-       ],
-       "tags": []
-      },
-      {
-       "type": "main",
-       "name": "Boloňské lasagne s hovězím ragú, bešamelovou omáčkou a parmazánem",
-       "price": 185,
-       "allergens": [
-        "1",
-        "3",
-        "7",
-        "9"
-       ],
-       "tags": []
-      },
-      {
-       "type": "main",
-       "name": "Grilovaná vepřová krkovička, dušené bílé zelí, tyrolské špecle, silná šťáva z výpeku",
-       "price": 179,
-       "allergens": [
-        "1",
-        "3",
-        "7"
-       ],
-       "tags": []
-      },
-      {
-       "type": "weekly",
-       "name": "Smažený holandský řízek se sýrem, máslová bramborová kaše, nakládaná okurka",
-       "price": 189,
-       "allergens": [
-        "1",
-        "3",
-        "7"
-       ],
-       "tags": []
-      },
-      {
-       "type": "weekly",
-       "name": "Grilovaný filet z lososa, pyré z pečeného květáku, glazovaná baby mrkev, smetanovo-bylinková omáčka",
-       "price": 249,
-       "allergens": [
-        "4",
-        "7"
-       ],
-       "tags": [
-        "bezlepkové"
-       ]
-      }
-     ]
-    },
-    "2026-11-05": {
-     "items": [
-      {
-       "type": "soup",
-       "name": "Dršťková polévka z hlívy ústřičné s česnekem a majoránkou",
-       "price": 59,
-       "allergens": [
-        "1"
-       ],
-       "tags": []
-      },
-      {
-       "type": "main",
-       "name": "Grilované kuřecí medailonky, krémová omáčka z modrého sýra, bramborové krokety",
-       "price": 179,
-       "allergens": [
-        "1",
-        "3",
-        "7"
-       ],
-       "tags": []
-      },
-      {
-       "type": "main",
-       "name": "Smažená obalovaná vepřová játra, vařené brambory s máslem a pažitkou, domácí tatarská omáčka",
-       "price": 169,
-       "allergens": [
-        "1",
-        "3",
-        "7",
-        "10"
-       ],
-       "tags": []
-      },
-      {
-       "type": "main",
-       "name": "Krémové bazalkové risotto se sušenými rajčaty, trhaná mozzarella",
+       "name": "Krémové houbové risotto s hoblinkami parmazánu",
        "price": 175,
        "allergens": [
         "7"
@@ -271,81 +45,133 @@
       },
       {
        "type": "weekly",
-       "name": "Smažený holandský řízek se sýrem, máslová bramborová kaše, nakládaná okurka",
-       "price": 189,
+       "name": "Grilovaný krůtí steak, pepřová omáčka, pečené brambory grenaille",
+       "price": 209,
        "allergens": [
-        "1",
-        "3",
         "7"
        ],
-       "tags": []
+       "tags": [
+        "bezlepkové"
+       ]
       },
       {
        "type": "weekly",
-       "name": "Grilovaný filet z lososa, pyré z pečeného květáku, glazovaná baby mrkev, smetanovo-bylinková omáčka",
-       "price": 249,
-       "allergens": [
-        "4",
-        "7"
-       ],
-       "tags": [
-        "bezlepkové"
-       ]
-      }
-     ]
-    },
-    "2026-11-06": {
-     "items": [
-      {
-       "type": "soup",
-       "name": "Thajská polévka s kokosovým mlékem, kuřecím masem a zeleninou, rýžové nudle",
-       "price": 59,
-       "allergens": [
-        "2",
-        "6",
-        "11"
-       ],
-       "tags": [
-        "bezlepkové"
-       ]
-      },
-      {
-       "type": "main",
-       "name": "Grilovaná vepřová panenka s krémovou smetanovo-liškovou omáčkou, bramborový fondán s parmazánem",
-       "price": 195,
-       "allergens": [
-        "7"
-       ],
-       "tags": [
-        "bezlepkové"
-       ]
-      },
-      {
-       "type": "main",
-       "name": "Preclíkový HOT DOG s trhaným kuřecím masem, čedarem a křupavou cibulkou, kořeněné americké brambory, česneková majonéza",
+       "name": "„Přeškovo“ guláš z vepřového ramínka, cibule, houskové knedlíky",
        "price": 189,
        "allergens": [
         "1",
         "3",
-        "7",
-        "10"
+        "7"
+       ],
+       "tags": []
+      }
+     ]
+    },
+    "2026-11-10": {
+     "items": [
+      {
+       "type": "soup",
+       "name": "Frankfurtská polévka s párkem a brambory",
+       "price": 59,
+       "allergens": [
+        "1"
        ],
        "tags": []
       },
       {
        "type": "main",
-       "name": "Čočka na kyselo, sázené vejce, nakládaná okurka",
+       "name": "Grilované kuřecí prso s máslovým hráškem, gratinované brambory, silná masová šťáva",
+       "price": 179,
+       "allergens": [
+        "7"
+       ],
+       "tags": [
+        "bezlepkové"
+       ]
+      },
+      {
+       "type": "main",
+       "name": "Hovězí chilli con carne s červenými fazolemi a kukuřicí, dušená jasmínová rýže",
+       "price": 185,
+       "allergens": [],
+       "tags": [
+        "bezlepkové"
+       ]
+      },
+      {
+       "type": "main",
+       "name": "Koprová omáčka se zastřeným vejcem, konfitované brambory",
        "price": 169,
        "allergens": [
         "1",
-        "3"
+        "3",
+        "7"
        ],
        "tags": []
       },
       {
        "type": "weekly",
-       "name": "Smažený holandský řízek se sýrem, máslová bramborová kaše, nakládaná okurka",
+       "name": "Grilovaný krůtí steak, pepřová omáčka, pečené brambory grenaille",
+       "price": 209,
+       "allergens": [
+        "7"
+       ],
+       "tags": [
+        "bezlepkové"
+       ]
+      },
+      {
+       "type": "weekly",
+       "name": "„Přeškovo“ guláš z vepřového ramínka, cibule, houskové knedlíky",
        "price": 189,
+       "allergens": [
+        "1",
+        "3",
+        "7"
+       ],
+       "tags": []
+      }
+     ]
+    },
+    "2026-11-11": {
+     "items": [
+      {
+       "type": "soup",
+       "name": "Květákový krém s restovanými mandlemi",
+       "price": 55,
+       "allergens": [
+        "7",
+        "8"
+       ],
+       "tags": [
+        "bezlepkové"
+       ]
+      },
+      {
+       "type": "main",
+       "name": "Kuřecí Cordon Bleu plněný šunkou a sýrem, máslová bramborová kaše, nakládaná okurka",
+       "price": 179,
+       "allergens": [
+        "1",
+        "3",
+        "7"
+       ],
+       "tags": []
+      },
+      {
+       "type": "main",
+       "name": "Vepřové nudličky fajitas s restovanou barevnou paprikou, červenou cibulí a mexickým kořením, pšeničná tortilla se zapečeným čedarem, zakysaná smetana",
+       "price": 185,
+       "allergens": [
+        "1",
+        "7"
+       ],
+       "tags": []
+      },
+      {
+       "type": "main",
+       "name": "Nadýchané domácí lívanečky, rozvar z lesního ovoce, domácí šlehačka",
+       "price": 169,
        "allergens": [
         "1",
         "3",
@@ -355,33 +181,148 @@
       },
       {
        "type": "weekly",
-       "name": "Grilovaný filet z lososa, pyré z pečeného květáku, glazovaná baby mrkev, smetanovo-bylinková omáčka",
-       "price": 249,
+       "name": "Grilovaný krůtí steak, pepřová omáčka, pečené brambory grenaille",
+       "price": 209,
        "allergens": [
+        "7"
+       ],
+       "tags": [
+        "bezlepkové"
+       ]
+      },
+      {
+       "type": "weekly",
+       "name": "„Přeškovo“ guláš z vepřového ramínka, cibule, houskové knedlíky",
+       "price": 189,
+       "allergens": [
+        "1",
+        "3",
+        "7"
+       ],
+       "tags": []
+      }
+     ]
+    },
+    "2026-11-12": {
+     "items": [
+      {
+       "type": "soup",
+       "name": "Hovězí vývar s masem a kořenovou zeleninou, pšeničné nudle",
+       "price": 59,
+       "allergens": [
+        "1",
+        "3",
+        "9"
+       ],
+       "tags": []
+      },
+      {
+       "type": "main",
+       "name": "Grilovaný kuřecí špíz satay s arašídovou omáčkou, rýžové nudle, čerstvý koriandr",
+       "price": 179,
+       "allergens": [
+        "5",
+        "6"
+       ],
+       "tags": [
+        "bezlepkové"
+       ]
+      },
+      {
+       "type": "main",
+       "name": "Záhorácký vepřový závitek plněný kysaným zelím a slaninou, šťouchané brambory s jarní cibulkou, silná šťáva z výpeku",
+       "price": 185,
+       "allergens": [
+        "1",
+        "7"
+       ],
+       "tags": []
+      },
+      {
+       "type": "main",
+       "name": "Domácí bramborové noky Quattro Formaggi v krémové omáčce, výhonky mladého hrášku",
+       "price": 165,
+       "allergens": [
+        "3",
+        "7"
+       ],
+       "tags": [
+        "bezlepkové"
+       ]
+      },
+      {
+       "type": "weekly",
+       "name": "Grilovaný krůtí steak, pepřová omáčka, pečené brambory grenaille",
+       "price": 209,
+       "allergens": [
+        "7"
+       ],
+       "tags": [
+        "bezlepkové"
+       ]
+      },
+      {
+       "type": "weekly",
+       "name": "„Přeškovo“ guláš z vepřového ramínka, cibule, houskové knedlíky",
+       "price": 189,
+       "allergens": [
+        "1",
+        "3",
+        "7"
+       ],
+       "tags": []
+      }
+     ]
+    },
+    "2026-11-13": {
+     "items": [
+      {
+       "type": "soup",
+       "name": "Hrachová polévka s uzeninou",
+       "price": 59,
+       "allergens": [],
+       "tags": [
+        "bezlepkové"
+       ]
+      },
+      {
+       "type": "main",
+       "name": "Burger s grilovaným kuřecím stehenním steakem, sýrem Monterey Jack, čerstvým salátem, rajčetem a Kentucky dresinkem, americké brambory",
+       "price": 195,
+       "allergens": [
+        "1",
+        "3",
+        "7",
+        "10"
+       ],
+       "tags": []
+      },
+      {
+       "type": "main",
+       "name": "Smažená obalovaná treska, vařené brambory s máslem a čerstvou pažitkou",
+       "price": 185,
+       "allergens": [
+        "1",
+        "3",
         "4",
         "7"
        ],
-       "tags": [
-        "bezlepkové"
-       ]
-      }
-     ]
-    },
-    "2026-11-07": {
-     "items": [
-      {
-       "type": "soup",
-       "name": "Čočková polévka s párkem",
-       "price": 59,
-       "allergens": [
-        "1"
-       ],
        "tags": []
       },
       {
        "type": "main",
-       "name": "Grilovaná kotleta se slaninou a uzeným sýrem, farmářské brambory, silná masová šťáva",
-       "price": 195,
+       "name": "Špagety Aglio e Olio s česnekem, chilli papričkami a olivovým olejem, čerstvá petrželka, strouhaný parmazán",
+       "price": 169,
+       "allergens": [
+        "1",
+        "7"
+       ],
+       "tags": []
+      },
+      {
+       "type": "weekly",
+       "name": "Grilovaný krůtí steak, pepřová omáčka, pečené brambory grenaille",
+       "price": 209,
        "allergens": [
         "7"
        ],
@@ -390,50 +331,13 @@
        ]
       },
       {
-       "type": "main",
-       "name": "Obalovaný smažený květák, vařené brambory s pažitkou, domácí tatarská omáčka",
+       "type": "weekly",
+       "name": "„Přeškovo“ guláš z vepřového ramínka, cibule, houskové knedlíky",
        "price": 189,
        "allergens": [
         "1",
         "3",
-        "7",
-        "10"
-       ],
-       "tags": []
-      }
-     ]
-    },
-    "2026-11-08": {
-     "items": [
-      {
-       "type": "soup",
-       "name": "Čočková polévka s párkem",
-       "price": 59,
-       "allergens": [
-        "1"
-       ],
-       "tags": []
-      },
-      {
-       "type": "main",
-       "name": "Grilovaná kotleta se slaninou a uzeným sýrem, farmářské brambory, silná masová šťáva",
-       "price": 195,
-       "allergens": [
         "7"
-       ],
-       "tags": [
-        "bezlepkové"
-       ]
-      },
-      {
-       "type": "main",
-       "name": "Obalovaný smažený květák, vařené brambory s pažitkou, domácí tatarská omáčka",
-       "price": 189,
-       "allergens": [
-        "1",
-        "3",
-        "7",
-        "10"
        ],
        "tags": []
       }
@@ -444,10 +348,64 @@
   {
    "id": "crossroad",
    "sourceUrl": "https://crossroadrestaurant.cz/",
-   "fetchedAt": "2026-11-06T15:51:40.802Z",
+   "fetchedAt": "2026-11-09T18:39:31.685Z",
    "status": "ok",
-   "lastOkAt": "2026-11-06T15:51:40.802Z",
+   "lastOkAt": "2026-11-09T18:39:31.685Z",
    "days": {
+    "2026-11-09": {
+     "items": [],
+     "images": [
+      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-08-200442.png",
+      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-08-200523.png"
+     ],
+     "imageOnly": true
+    },
+    "2026-11-10": {
+     "items": [],
+     "images": [
+      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-08-200449.png",
+      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-08-200523.png"
+     ],
+     "imageOnly": true
+    },
+    "2026-11-11": {
+     "items": [],
+     "images": [
+      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-08-200457.png",
+      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-08-200523.png"
+     ],
+     "imageOnly": true
+    },
+    "2026-11-12": {
+     "items": [],
+     "images": [
+      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-08-200507.png",
+      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-08-200523.png"
+     ],
+     "imageOnly": true
+    },
+    "2026-11-13": {
+     "items": [],
+     "images": [
+      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-08-200514.png",
+      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-08-200523.png"
+     ],
+     "imageOnly": true
+    },
+    "2026-11-07": {
+     "items": [],
+     "images": [
+      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/1.png"
+     ],
+     "imageOnly": true
+    },
+    "2026-11-08": {
+     "items": [],
+     "images": [
+      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/1.png"
+     ],
+     "imageOnly": true
+    },
     "2026-11-02": {
      "items": [
       {
@@ -617,20 +575,6 @@
        "price": 169
       }
      ]
-    },
-    "2026-10-31": {
-     "items": [],
-     "images": [
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/10/2-1.png"
-     ],
-     "imageOnly": true
-    },
-    "2026-11-01": {
-     "items": [],
-     "images": [
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/10/2-1.png"
-     ],
-     "imageOnly": true
     }
    },
    "cache": {}
@@ -638,9 +582,9 @@
   {
    "id": "hajecek",
    "sourceUrl": "https://www.cukrarnavhajecku.cz/poledni-menu/",
-   "fetchedAt": "2026-11-06T15:51:40.802Z",
+   "fetchedAt": "2026-11-09T18:39:31.685Z",
    "status": "ok",
-   "lastOkAt": "2026-11-06T15:51:40.802Z",
+   "lastOkAt": "2026-11-09T18:39:31.685Z",
    "days": {
     "2026-11-03": {
      "items": [
