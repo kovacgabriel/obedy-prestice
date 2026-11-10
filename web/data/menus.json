@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-09T18:39:31.685Z",
+ "generatedAt": "2026-11-10T16:21:56.129Z",
  "restaurants": [
   {
    "id": "preskovo",
    "sourceUrl": "https://tadyjepreskovo.cz/",
-   "fetchedAt": "2026-11-09T18:39:31.685Z",
+   "fetchedAt": "2026-11-10T16:21:56.129Z",
    "status": "ok",
-   "lastOkAt": "2026-11-09T18:39:31.685Z",
+   "lastOkAt": "2026-11-10T16:21:56.129Z",
    "days": {
     "2026-11-09": {
      "items": [
@@ -348,9 +348,9 @@
   {
    "id": "crossroad",
    "sourceUrl": "https://crossroadrestaurant.cz/",
-   "fetchedAt": "2026-11-09T18:39:31.685Z",
+   "fetchedAt": "2026-11-10T16:21:56.129Z",
    "status": "ok",
-   "lastOkAt": "2026-11-09T18:39:31.685Z",
+   "lastOkAt": "2026-11-10T16:21:56.129Z",
    "days": {
     "2026-11-09": {
      "items": [],
@@ -582,9 +582,9 @@
   {
    "id": "hajecek",
    "sourceUrl": "https://www.cukrarnavhajecku.cz/poledni-menu/",
-   "fetchedAt": "2026-11-09T18:39:31.685Z",
+   "fetchedAt": "2026-11-10T16:21:56.129Z",
    "status": "ok",
-   "lastOkAt": "2026-11-09T18:39:31.685Z",
+   "lastOkAt": "2026-11-10T16:21:56.129Z",
    "days": {
     "2026-11-03": {
      "items": [
