@@ -170,6 +170,241 @@
      "price": 169
     }
    ]
+  },
+  "2026-11-09": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "Zeleninový krém",
+     "price": 45
+    },
+    {
+     "type": "main",
+     "name": "150g Přírodní vepřový kotlet na žampionech / rýže",
+     "price": 165
+    },
+    {
+     "type": "main",
+     "name": "3ks Plněné bramborové knedlíky uzeným masem / kysané zelí",
+     "price": 169
+    },
+    {
+     "type": "main",
+     "name": "150g Kuřecí rarášci / vařený brambor / zelenina",
+     "price": 169
+    },
+    {
+     "type": "main",
+     "name": "180g Medailonky z vepřové panenky / bramborové pyré / smetanová omáčka se zeleným pepřem",
+     "price": 185
+    },
+    {
+     "type": "weekly",
+     "name": "500g Ovarové koleno / hořčice / čerstvý křen / chléb",
+     "price": 185
+    },
+    {
+     "type": "weekly",
+     "name": "1porce CAESAR salát s kuřecím masem / krutony / grilovanou slaninou / originál dresinkem a parmezánem",
+     "price": 189
+    }
+   ]
+  },
+  "2026-11-10": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "Krém z čerstvých hub",
+     "price": 45
+    },
+    {
+     "type": "main",
+     "name": "150g Trhané kuřecí maso na paprice / houskový knedlík X těstoviny",
+     "price": 169
+    },
+    {
+     "type": "main",
+     "name": "350g Špagety s pikantním mletým hovězím masem / olivami / drcenými rajčaty a čerstvou bazalkou",
+     "price": 175
+    },
+    {
+     "type": "main",
+     "name": "150g Smažený květák / vařený brambor / tatarská omáčka",
+     "price": 165
+    },
+    {
+     "type": "main",
+     "name": "1ks Focaccia s filírovaným kuřecím masem / grilovaná paprika / mix listových salátů / dip",
+     "price": 179
+    },
+    {
+     "type": "weekly",
+     "name": "500g Ovarové koleno / hořčice / čerstvý křen / chléb",
+     "price": 185
+    },
+    {
+     "type": "weekly",
+     "name": "1porce CAESAR salát s kuřecím masem / krutony / grilovanou slaninou / originál dresinkem a parmezánem",
+     "price": 189
+    }
+   ]
+  },
+  "2026-11-11": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "Česnečka s bramborem / vejcem / sýrem a krutony",
+     "price": 45
+    },
+    {
+     "type": "main",
+     "name": "1ks Plněný paprikový lusk / rajská omáčka / houskový knedlík X těstoviny",
+     "price": 175
+    },
+    {
+     "type": "main",
+     "name": "200g Sekaná místního řezníka / těstovinový salát",
+     "price": 169
+    },
+    {
+     "type": "main",
+     "name": "350g Tagliatelle s čerstvým lososem / drcená rajčata / česnek / rukola",
+     "price": 185
+    },
+    {
+     "type": "main",
+     "name": "120g Kuřecí GYROS v domácím pita chlebu / salát coleslaw / hranolky",
+     "price": 185
+    },
+    {
+     "type": "weekly",
+     "name": "500g Ovarové koleno / hořčice / čerstvý křen / chléb",
+     "price": 185
+    },
+    {
+     "type": "weekly",
+     "name": "1porce CAESAR salát s kuřecím masem / krutony / grilovanou slaninou / originál dresinkem a parmezánem",
+     "price": 189
+    }
+   ]
+  },
+  "2026-11-12": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "Gulášová z mletého masa",
+     "price": 45
+    },
+    {
+     "type": "main",
+     "name": "150g Znojemská hovězí pečeně / rýže",
+     "price": 169
+    },
+    {
+     "type": "main",
+     "name": "1ks Pečené králičí stehno / špenát / bramborový knedlík",
+     "price": 175
+    },
+    {
+     "type": "main",
+     "name": "1ks Hermelín v bramboráku / hranolky / bylinkový dip",
+     "price": 175
+    },
+    {
+     "type": "main",
+     "name": "350g Naše bramborové noky s nudličkami z vepřové panenky a hříbkovou omáčkou",
+     "price": 179
+    },
+    {
+     "type": "weekly",
+     "name": "500g Ovarové koleno / hořčice / čerstvý křen / chléb",
+     "price": 185
+    },
+    {
+     "type": "weekly",
+     "name": "1porce CAESAR salát s kuřecím masem / krutony / grilovanou slaninou / originál dresinkem a parmezánem",
+     "price": 189
+    },
+    {
+     "type": "special",
+     "name": "Polévka: Husí kaldoun / játrové knedlíčky / široké nudle",
+     "price": 89
+    },
+    {
+     "type": "special",
+     "name": "Předkrm: 80g Husí paštika / malinový gel / náš rozpečený chléb",
+     "price": 145
+    },
+    {
+     "type": "special",
+     "name": "Hlavní jídlo: 450g Konfitované husí stehno / červené a bílé zelí / variace knedlíků",
+     "price": 595
+    },
+    {
+     "type": "special",
+     "name": "Dezert: 2ks Tvarohové knedlíčky plněné švestkami / obalené perníčkem / mascarpone krém",
+     "price": 125
+    }
+   ]
+  },
+  "2026-11-13": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "Hovězí vývar / játrové knedlíčky / kořenová zelenina",
+     "price": 45
+    },
+    {
+     "type": "main",
+     "name": "150g Svíčková z hovězího masa / brusinkový terč / houskový knedlík",
+     "price": 175
+    },
+    {
+     "type": "main",
+     "name": "150g Kuřecí prso filírované / mrkvové pyré zjemněné smetanou / podzimní zelenina / jus",
+     "price": 169
+    },
+    {
+     "type": "main",
+     "name": "120g Smažený kuřecí řízek / kuřecí X krkovička / bramborový salát",
+     "price": 169
+    },
+    {
+     "type": "main",
+     "name": "3ks Bavorské vdolečky",
+     "price": 79
+    },
+    {
+     "type": "weekly",
+     "name": "500g Ovarové koleno / hořčice / čerstvý křen / chléb",
+     "price": 185
+    },
+    {
+     "type": "weekly",
+     "name": "1porce CAESAR salát s kuřecím masem / krutony / grilovanou slaninou / originál dresinkem a parmezánem",
+     "price": 189
+    },
+    {
+     "type": "special",
+     "name": "Polévka: Husí kaldoun / játrové knedlíčky / široké nudle",
+     "price": 89
+    },
+    {
+     "type": "special",
+     "name": "Předkrm: 80g Husí paštika / malinový gel / náš rozpečený chléb",
+     "price": 145
+    },
+    {
+     "type": "special",
+     "name": "Hlavní jídlo: 450g Konfitované husí stehno / červené a bílé zelí / variace knedlíků",
+     "price": 595
+    },
+    {
+     "type": "special",
+     "name": "Dezert: 2ks Tvarohové knedlíčky plněné švestkami / obalené perníčkem / mascarpone krém",
+     "price": 125
+    }
+   ]
   }
  }
 }

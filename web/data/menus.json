@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-11T16:02:54.749Z",
+ "generatedAt": "2026-11-12T08:39:12.169Z",
  "restaurants": [
   {
    "id": "preskovo",
    "sourceUrl": "https://tadyjepreskovo.cz/",
-   "fetchedAt": "2026-11-11T16:02:54.749Z",
+   "fetchedAt": "2026-11-12T08:39:12.169Z",
    "status": "ok",
-   "lastOkAt": "2026-11-11T16:02:54.749Z",
+   "lastOkAt": "2026-11-12T08:39:12.169Z",
    "days": {
     "2026-11-09": {
      "items": [
@@ -348,49 +348,244 @@
   {
    "id": "crossroad",
    "sourceUrl": "https://crossroadrestaurant.cz/",
-   "fetchedAt": "2026-11-11T16:02:54.749Z",
+   "fetchedAt": "2026-11-12T08:39:12.169Z",
    "status": "ok",
-   "lastOkAt": "2026-11-11T16:02:54.749Z",
+   "lastOkAt": "2026-11-12T08:39:12.169Z",
    "days": {
     "2026-11-09": {
-     "items": [],
-     "images": [
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-08-200442.png",
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-08-200523.png"
-     ],
-     "imageOnly": true
+     "items": [
+      {
+       "type": "soup",
+       "name": "Zeleninový krém",
+       "price": 45
+      },
+      {
+       "type": "main",
+       "name": "150g Přírodní vepřový kotlet na žampionech / rýže",
+       "price": 165
+      },
+      {
+       "type": "main",
+       "name": "3ks Plněné bramborové knedlíky uzeným masem / kysané zelí",
+       "price": 169
+      },
+      {
+       "type": "main",
+       "name": "150g Kuřecí rarášci / vařený brambor / zelenina",
+       "price": 169
+      },
+      {
+       "type": "main",
+       "name": "180g Medailonky z vepřové panenky / bramborové pyré / smetanová omáčka se zeleným pepřem",
+       "price": 185
+      },
+      {
+       "type": "weekly",
+       "name": "500g Ovarové koleno / hořčice / čerstvý křen / chléb",
+       "price": 185
+      },
+      {
+       "type": "weekly",
+       "name": "1porce CAESAR salát s kuřecím masem / krutony / grilovanou slaninou / originál dresinkem a parmezánem",
+       "price": 189
+      }
+     ]
     },
     "2026-11-10": {
-     "items": [],
-     "images": [
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-08-200449.png",
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-08-200523.png"
-     ],
-     "imageOnly": true
+     "items": [
+      {
+       "type": "soup",
+       "name": "Krém z čerstvých hub",
+       "price": 45
+      },
+      {
+       "type": "main",
+       "name": "150g Trhané kuřecí maso na paprice / houskový knedlík X těstoviny",
+       "price": 169
+      },
+      {
+       "type": "main",
+       "name": "350g Špagety s pikantním mletým hovězím masem / olivami / drcenými rajčaty a čerstvou bazalkou",
+       "price": 175
+      },
+      {
+       "type": "main",
+       "name": "150g Smažený květák / vařený brambor / tatarská omáčka",
+       "price": 165
+      },
+      {
+       "type": "main",
+       "name": "1ks Focaccia s filírovaným kuřecím masem / grilovaná paprika / mix listových salátů / dip",
+       "price": 179
+      },
+      {
+       "type": "weekly",
+       "name": "500g Ovarové koleno / hořčice / čerstvý křen / chléb",
+       "price": 185
+      },
+      {
+       "type": "weekly",
+       "name": "1porce CAESAR salát s kuřecím masem / krutony / grilovanou slaninou / originál dresinkem a parmezánem",
+       "price": 189
+      }
+     ]
     },
     "2026-11-11": {
-     "items": [],
-     "images": [
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-08-200457.png",
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-08-200523.png"
-     ],
-     "imageOnly": true
+     "items": [
+      {
+       "type": "soup",
+       "name": "Česnečka s bramborem / vejcem / sýrem a krutony",
+       "price": 45
+      },
+      {
+       "type": "main",
+       "name": "1ks Plněný paprikový lusk / rajská omáčka / houskový knedlík X těstoviny",
+       "price": 175
+      },
+      {
+       "type": "main",
+       "name": "200g Sekaná místního řezníka / těstovinový salát",
+       "price": 169
+      },
+      {
+       "type": "main",
+       "name": "350g Tagliatelle s čerstvým lososem / drcená rajčata / česnek / rukola",
+       "price": 185
+      },
+      {
+       "type": "main",
+       "name": "120g Kuřecí GYROS v domácím pita chlebu / salát coleslaw / hranolky",
+       "price": 185
+      },
+      {
+       "type": "weekly",
+       "name": "500g Ovarové koleno / hořčice / čerstvý křen / chléb",
+       "price": 185
+      },
+      {
+       "type": "weekly",
+       "name": "1porce CAESAR salát s kuřecím masem / krutony / grilovanou slaninou / originál dresinkem a parmezánem",
+       "price": 189
+      }
+     ]
     },
     "2026-11-12": {
-     "items": [],
-     "images": [
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-08-200507.png",
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-08-200523.png"
-     ],
-     "imageOnly": true
+     "items": [
+      {
+       "type": "soup",
+       "name": "Gulášová z mletého masa",
+       "price": 45
+      },
+      {
+       "type": "main",
+       "name": "150g Znojemská hovězí pečeně / rýže",
+       "price": 169
+      },
+      {
+       "type": "main",
+       "name": "1ks Pečené králičí stehno / špenát / bramborový knedlík",
+       "price": 175
+      },
+      {
+       "type": "main",
+       "name": "1ks Hermelín v bramboráku / hranolky / bylinkový dip",
+       "price": 175
+      },
+      {
+       "type": "main",
+       "name": "350g Naše bramborové noky s nudličkami z vepřové panenky a hříbkovou omáčkou",
+       "price": 179
+      },
+      {
+       "type": "weekly",
+       "name": "500g Ovarové koleno / hořčice / čerstvý křen / chléb",
+       "price": 185
+      },
+      {
+       "type": "weekly",
+       "name": "1porce CAESAR salát s kuřecím masem / krutony / grilovanou slaninou / originál dresinkem a parmezánem",
+       "price": 189
+      },
+      {
+       "type": "special",
+       "name": "Polévka: Husí kaldoun / játrové knedlíčky / široké nudle",
+       "price": 89
+      },
+      {
+       "type": "special",
+       "name": "Předkrm: 80g Husí paštika / malinový gel / náš rozpečený chléb",
+       "price": 145
+      },
+      {
+       "type": "special",
+       "name": "Hlavní jídlo: 450g Konfitované husí stehno / červené a bílé zelí / variace knedlíků",
+       "price": 595
+      },
+      {
+       "type": "special",
+       "name": "Dezert: 2ks Tvarohové knedlíčky plněné švestkami / obalené perníčkem / mascarpone krém",
+       "price": 125
+      }
+     ]
     },
     "2026-11-13": {
-     "items": [],
-     "images": [
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-08-200514.png",
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-08-200523.png"
-     ],
-     "imageOnly": true
+     "items": [
+      {
+       "type": "soup",
+       "name": "Hovězí vývar / játrové knedlíčky / kořenová zelenina",
+       "price": 45
+      },
+      {
+       "type": "main",
+       "name": "150g Svíčková z hovězího masa / brusinkový terč / houskový knedlík",
+       "price": 175
+      },
+      {
+       "type": "main",
+       "name": "150g Kuřecí prso filírované / mrkvové pyré zjemněné smetanou / podzimní zelenina / jus",
+       "price": 169
+      },
+      {
+       "type": "main",
+       "name": "120g Smažený kuřecí řízek / kuřecí X krkovička / bramborový salát",
+       "price": 169
+      },
+      {
+       "type": "main",
+       "name": "3ks Bavorské vdolečky",
+       "price": 79
+      },
+      {
+       "type": "weekly",
+       "name": "500g Ovarové koleno / hořčice / čerstvý křen / chléb",
+       "price": 185
+      },
+      {
+       "type": "weekly",
+       "name": "1porce CAESAR salát s kuřecím masem / krutony / grilovanou slaninou / originál dresinkem a parmezánem",
+       "price": 189
+      },
+      {
+       "type": "special",
+       "name": "Polévka: Husí kaldoun / játrové knedlíčky / široké nudle",
+       "price": 89
+      },
+      {
+       "type": "special",
+       "name": "Předkrm: 80g Husí paštika / malinový gel / náš rozpečený chléb",
+       "price": 145
+      },
+      {
+       "type": "special",
+       "name": "Hlavní jídlo: 450g Konfitované husí stehno / červené a bílé zelí / variace knedlíků",
+       "price": 595
+      },
+      {
+       "type": "special",
+       "name": "Dezert: 2ks Tvarohové knedlíčky plněné švestkami / obalené perníčkem / mascarpone krém",
+       "price": 125
+      }
+     ]
     },
     "2026-11-07": {
      "items": [],
@@ -582,9 +777,9 @@
   {
    "id": "hajecek",
    "sourceUrl": "https://www.cukrarnavhajecku.cz/poledni-menu/",
-   "fetchedAt": "2026-11-11T16:02:54.749Z",
+   "fetchedAt": "2026-11-12T08:39:12.169Z",
    "status": "ok",
-   "lastOkAt": "2026-11-11T16:02:54.749Z",
+   "lastOkAt": "2026-11-12T08:39:12.169Z",
    "days": {
     "2026-11-03": {
      "items": [
@@ -652,6 +847,76 @@
       {
        "type": "main",
        "name": "300g Dušená mrkev s vepřovým masem, rozpek",
+       "price": 150
+      }
+     ]
+    },
+    "2026-11-10": {
+     "items": [
+      {
+       "type": "soup",
+       "name": "250ml Slepičí vývar s domácími nudličkami",
+       "price": 45
+      },
+      {
+       "type": "main",
+       "name": "300g Kuřecí řízek, vařené brambory, kyselá okurka",
+       "price": 150
+      }
+     ]
+    },
+    "2026-11-11": {
+     "items": [
+      {
+       "type": "soup",
+       "name": "250ml Slepičí vývar s domácími nudličkami",
+       "price": 45
+      },
+      {
+       "type": "main",
+       "name": "300g Vepřová krkovice, kysané zelí (bílé), kynuté knedlíky",
+       "price": 155
+      }
+     ]
+    },
+    "2026-11-12": {
+     "items": [
+      {
+       "type": "soup",
+       "name": "250ml Fazolová polévka",
+       "price": 35
+      },
+      {
+       "type": "main",
+       "name": "250g Špagety s rajčatovou omáčkou s mletým masem, sýr",
+       "price": 150
+      }
+     ]
+    },
+    "2026-11-13": {
+     "items": [
+      {
+       "type": "soup",
+       "name": "250ml Dršťková polévka",
+       "price": 35
+      },
+      {
+       "type": "main",
+       "name": "300g Přírodní kuřecí plátek se šunkou a sýrem, hranolky",
+       "price": 155
+      }
+     ]
+    },
+    "2026-11-14": {
+     "items": [
+      {
+       "type": "soup",
+       "name": "250ml Uzený vývar s kroupami",
+       "price": 35
+      },
+      {
+       "type": "main",
+       "name": "300g Francouzské brambory s uzeným masem",
        "price": 150
       }
      ]

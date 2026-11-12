@@ -1,5 +1,5 @@
 {
- "_note": "Ruční přepis obrázkového menu (týden 3.–7. 11.); má přednost před staženými daty.",
+ "_note": "Ruční přepis obrázkového menu; má přednost před staženými daty.",
  "days": {
   "2026-11-03": {
    "items": [
@@ -67,6 +67,76 @@
     {
      "type": "main",
      "name": "300g Dušená mrkev s vepřovým masem, rozpek",
+     "price": 150
+    }
+   ]
+  },
+  "2026-11-10": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "250ml Slepičí vývar s domácími nudličkami",
+     "price": 45
+    },
+    {
+     "type": "main",
+     "name": "300g Kuřecí řízek, vařené brambory, kyselá okurka",
+     "price": 150
+    }
+   ]
+  },
+  "2026-11-11": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "250ml Slepičí vývar s domácími nudličkami",
+     "price": 45
+    },
+    {
+     "type": "main",
+     "name": "300g Vepřová krkovice, kysané zelí (bílé), kynuté knedlíky",
+     "price": 155
+    }
+   ]
+  },
+  "2026-11-12": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "250ml Fazolová polévka",
+     "price": 35
+    },
+    {
+     "type": "main",
+     "name": "250g Špagety s rajčatovou omáčkou s mletým masem, sýr",
+     "price": 150
+    }
+   ]
+  },
+  "2026-11-13": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "250ml Dršťková polévka",
+     "price": 35
+    },
+    {
+     "type": "main",
+     "name": "300g Přírodní kuřecí plátek se šunkou a sýrem, hranolky",
+     "price": 155
+    }
+   ]
+  },
+  "2026-11-14": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "250ml Uzený vývar s kroupami",
+     "price": 35
+    },
+    {
+     "type": "main",
+     "name": "300g Francouzské brambory s uzeným masem",
      "price": 150
     }
    ]
