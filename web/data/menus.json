@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-17T17:32:32.394Z",
+ "generatedAt": "2026-11-18T17:09:51.682Z",
  "restaurants": [
   {
    "id": "preskovo",
    "sourceUrl": "https://tadyjepreskovo.cz/",
-   "fetchedAt": "2026-11-17T17:32:32.394Z",
+   "fetchedAt": "2026-11-18T17:09:51.682Z",
    "status": "ok",
-   "lastOkAt": "2026-11-17T17:32:32.394Z",
+   "lastOkAt": "2026-11-18T17:09:51.682Z",
    "days": {
     "2026-11-16": {
      "items": [
@@ -360,9 +360,9 @@
   {
    "id": "crossroad",
    "sourceUrl": "https://crossroadrestaurant.cz/",
-   "fetchedAt": "2026-11-17T17:32:32.394Z",
+   "fetchedAt": "2026-11-18T17:09:51.682Z",
    "status": "ok",
-   "lastOkAt": "2026-11-17T17:32:32.394Z",
+   "lastOkAt": "2026-11-18T17:09:51.682Z",
    "days": {
     "2026-11-16": {
      "items": [],
@@ -829,10 +829,38 @@
   {
    "id": "hajecek",
    "sourceUrl": "https://www.cukrarnavhajecku.cz/poledni-menu/",
-   "fetchedAt": "2026-11-17T17:32:32.394Z",
+   "fetchedAt": "2026-11-18T17:09:51.682Z",
    "status": "ok",
-   "lastOkAt": "2026-11-17T17:32:32.394Z",
+   "lastOkAt": "2026-11-18T17:09:51.682Z",
    "days": {
+    "2026-11-17": {
+     "items": [],
+     "images": [
+      "https://7ba15f7b7b.clvaw-cdnwnd.com/4c9a253347665455c5d067a206520631/200000612-33b4b33b4d/Sn%C3%ADmek%20obrazovky%202026-11-18%20075233.png?ph=7ba15f7b7b"
+     ],
+     "imageOnly": true
+    },
+    "2026-11-18": {
+     "items": [],
+     "images": [
+      "https://7ba15f7b7b.clvaw-cdnwnd.com/4c9a253347665455c5d067a206520631/200000612-33b4b33b4d/Sn%C3%ADmek%20obrazovky%202026-11-18%20075233.png?ph=7ba15f7b7b"
+     ],
+     "imageOnly": true
+    },
+    "2026-11-19": {
+     "items": [],
+     "images": [
+      "https://7ba15f7b7b.clvaw-cdnwnd.com/4c9a253347665455c5d067a206520631/200000612-33b4b33b4d/Sn%C3%ADmek%20obrazovky%202026-11-18%20075233.png?ph=7ba15f7b7b"
+     ],
+     "imageOnly": true
+    },
+    "2026-11-20": {
+     "items": [],
+     "images": [
+      "https://7ba15f7b7b.clvaw-cdnwnd.com/4c9a253347665455c5d067a206520631/200000612-33b4b33b4d/Sn%C3%ADmek%20obrazovky%202026-11-18%20075233.png?ph=7ba15f7b7b"
+     ],
+     "imageOnly": true
+    },
     "2026-11-03": {
      "items": [
       {
@@ -977,7 +1005,8 @@
    "cache": {
     "seen": {
      "https://7ba15f7b7b.clvaw-cdnwnd.com/4c9a253347665455c5d067a206520631/200000604-6aae56aae6/Sn%C3%ADmek%20obrazovky%202026-11-02%20152751.png?ph=7ba15f7b7b": "2026-11-05",
-     "https://7ba15f7b7b.clvaw-cdnwnd.com/4c9a253347665455c5d067a206520631/200000608-eecd2eecd5/Sn%C3%ADmek%20obrazovky%202026-11-05%20200335-6.png?ph=7ba15f7b7b": "2026-11-06"
+     "https://7ba15f7b7b.clvaw-cdnwnd.com/4c9a253347665455c5d067a206520631/200000608-eecd2eecd5/Sn%C3%ADmek%20obrazovky%202026-11-05%20200335-6.png?ph=7ba15f7b7b": "2026-11-06",
+     "https://7ba15f7b7b.clvaw-cdnwnd.com/4c9a253347665455c5d067a206520631/200000612-33b4b33b4d/Sn%C3%ADmek%20obrazovky%202026-11-18%20075233.png?ph=7ba15f7b7b": "2026-11-18"
     }
    }
   }
