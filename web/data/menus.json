@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-18T17:09:51.682Z",
+ "generatedAt": "2026-11-19T06:59:49.583Z",
  "restaurants": [
   {
    "id": "preskovo",
    "sourceUrl": "https://tadyjepreskovo.cz/",
-   "fetchedAt": "2026-11-18T17:09:51.682Z",
+   "fetchedAt": "2026-11-19T06:59:49.583Z",
    "status": "ok",
-   "lastOkAt": "2026-11-18T17:09:51.682Z",
+   "lastOkAt": "2026-11-19T06:59:49.583Z",
    "days": {
     "2026-11-16": {
      "items": [
@@ -360,49 +360,200 @@
   {
    "id": "crossroad",
    "sourceUrl": "https://crossroadrestaurant.cz/",
-   "fetchedAt": "2026-11-18T17:09:51.682Z",
+   "fetchedAt": "2026-11-19T06:59:49.583Z",
    "status": "ok",
-   "lastOkAt": "2026-11-18T17:09:51.682Z",
+   "lastOkAt": "2026-11-19T06:59:49.583Z",
    "days": {
     "2026-11-16": {
-     "items": [],
-     "images": [
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-15-132414.png",
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-15-132507.png"
-     ],
-     "imageOnly": true
+     "items": [
+      {
+       "type": "soup",
+       "name": "Tomatový krém / nok ze zakysané smetany / čerstvé bylinky",
+       "price": 55
+      },
+      {
+       "type": "main",
+       "name": "150g Cikánská hovězí pečeně / rýže",
+       "price": 175
+      },
+      {
+       "type": "main",
+       "name": "1ks Pečená kuřecí čtvrtka / vařený brambor / nádivka",
+       "price": 169
+      },
+      {
+       "type": "main",
+       "name": "100g Uzená kotleta / sázené vejce / čočka / rozpek / kyselá okurka",
+       "price": 169
+      },
+      {
+       "type": "main",
+       "name": "150g Kuřecí kari s brokolicí a sezónní zeleninou / rýže X bramborové krokety",
+       "price": 179
+      },
+      {
+       "type": "weekly",
+       "name": "150g Hovězí vařené / křenová omáčka / žemlový knedlíček",
+       "price": 189
+      },
+      {
+       "type": "weekly",
+       "name": "200g Kachní prso / sous vide / šťouchaný brambor / višňová omáčka",
+       "price": 225
+      }
+     ]
     },
     "2026-11-17": {
-     "items": [],
-     "images": [
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-15-132424.png",
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-15-132507.png"
+     "items": [
+      {
+       "type": "soup",
+       "name": "Krémová česnečka s bramborem / máslové krutony",
+       "price": 55
+      },
+      {
+       "type": "main",
+       "name": "150g Hovězí guláš / houskový knedlík",
+       "price": 185
+      },
+      {
+       "type": "main",
+       "name": "1ks Kynutý knedlík BLBOUN plněný trhaným masem / kyselé zelí",
+       "price": 195
+      },
+      {
+       "type": "main",
+       "name": "350g Čerstvé špagety Agli olio e peperoncino / parmezán / čerstvá petržel",
+       "price": 179
+      },
+      {
+       "type": "weekly",
+       "name": "150g Hovězí vařené / křenová omáčka / žemlový knedlíček",
+       "price": 189
+      },
+      {
+       "type": "weekly",
+       "name": "200g Kachní prso / sous vide / šťouchaný brambor / višňová omáčka",
+       "price": 225
+      }
      ],
-     "imageOnly": true
+     "note": "Státní svátek, otevřeno od 11:00. Menu je doplněno nabídkou à la carte."
     },
     "2026-11-18": {
-     "items": [],
-     "images": [
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-15-132431.png",
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-15-132507.png"
-     ],
-     "imageOnly": true
+     "items": [
+      {
+       "type": "soup",
+       "name": "Hovězí vývar s masem / vaječnými nudlemi / kořenová zelenina",
+       "price": 45
+      },
+      {
+       "type": "main",
+       "name": "150g Krůtí guláš s houbami sypaný lahůdkovou cibulkou / těstoviny",
+       "price": 179
+      },
+      {
+       "type": "main",
+       "name": "200g Trhané vepřové maso na černém pivu / bramborová kaše / cibulová omáčka",
+       "price": 179
+      },
+      {
+       "type": "main",
+       "name": "350g Tagliatelle s kuřecím masem / sušenými rajčaty / baby špenátem / česnekem / kapkou smetany",
+       "price": 185
+      },
+      {
+       "type": "main",
+       "name": "420g Dukátové buchtičky s vanilkovým krémem",
+       "price": 145
+      },
+      {
+       "type": "weekly",
+       "name": "150g Hovězí vařené / křenová omáčka / žemlový knedlíček",
+       "price": 189
+      },
+      {
+       "type": "weekly",
+       "name": "200g Kachní prso / sous vide / šťouchaný brambor / višňová omáčka",
+       "price": 225
+      }
+     ]
     },
     "2026-11-19": {
-     "items": [],
-     "images": [
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-15-132440.png",
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-15-132507.png"
-     ],
-     "imageOnly": true
+     "items": [
+      {
+       "type": "soup",
+       "name": "Dršťková",
+       "price": 45
+      },
+      {
+       "type": "main",
+       "name": "1ks Španělský ptáček / houskový knedlík X rýže",
+       "price": 185
+      },
+      {
+       "type": "main",
+       "name": "150g Vepřový vrabec / hlávkové zelí / houskový knedlík",
+       "price": 169
+      },
+      {
+       "type": "main",
+       "name": "150g Čevapčiči / vařený brambor / hořčice / cibule / hrášek",
+       "price": 169
+      },
+      {
+       "type": "main",
+       "name": "150g Grilovaný filet z lososa / šalotková omáčka / bramborové krokety",
+       "price": 189
+      },
+      {
+       "type": "weekly",
+       "name": "150g Hovězí vařené / křenová omáčka / žemlový knedlíček",
+       "price": 189
+      },
+      {
+       "type": "weekly",
+       "name": "200g Kachní prso / sous vide / šťouchaný brambor / višňová omáčka",
+       "price": 225
+      }
+     ]
     },
     "2026-11-20": {
-     "items": [],
-     "images": [
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-15-132448.png",
-      "https://crossroadrestaurant.cz/wp-content/uploads/2026/11/Snimek-obrazovky-2026-11-15-132507.png"
-     ],
-     "imageOnly": true
+     "items": [
+      {
+       "type": "soup",
+       "name": "Hovězí vývar s játrovou roládou / kořenová zelenina",
+       "price": 45
+      },
+      {
+       "type": "main",
+       "name": "150g Medailonky z vepřové kotlety s pikantní zeleninovou směsí / hranolky",
+       "price": 179
+      },
+      {
+       "type": "main",
+       "name": "150g Vepřové maso / dušená mrkev / rozpek X vařený brambor",
+       "price": 165
+      },
+      {
+       "type": "main",
+       "name": "350g Čerstvé špagety s boloňskou směsí z mletého hovězího masa / parmezán",
+       "price": 179
+      },
+      {
+       "type": "main",
+       "name": "150g Kuřecí řízečky v cornflakes / bramborová kaše / fresh salátek",
+       "price": 179
+      },
+      {
+       "type": "weekly",
+       "name": "150g Hovězí vařené / křenová omáčka / žemlový knedlíček",
+       "price": 189
+      },
+      {
+       "type": "weekly",
+       "name": "200g Kachní prso / sous vide / šťouchaný brambor / višňová omáčka",
+       "price": 225
+      }
+     ]
     },
     "2026-11-14": {
      "items": [],
@@ -829,37 +980,67 @@
   {
    "id": "hajecek",
    "sourceUrl": "https://www.cukrarnavhajecku.cz/poledni-menu/",
-   "fetchedAt": "2026-11-18T17:09:51.682Z",
+   "fetchedAt": "2026-11-19T06:59:49.583Z",
    "status": "ok",
-   "lastOkAt": "2026-11-18T17:09:51.682Z",
+   "lastOkAt": "2026-11-19T06:59:49.583Z",
    "days": {
     "2026-11-17": {
      "items": [],
-     "images": [
-      "https://7ba15f7b7b.clvaw-cdnwnd.com/4c9a253347665455c5d067a206520631/200000612-33b4b33b4d/Sn%C3%ADmek%20obrazovky%202026-11-18%20075233.png?ph=7ba15f7b7b"
-     ],
-     "imageOnly": true
+     "note": "Zavřeno – státní svátek.",
+     "closed": true
     },
     "2026-11-18": {
-     "items": [],
-     "images": [
-      "https://7ba15f7b7b.clvaw-cdnwnd.com/4c9a253347665455c5d067a206520631/200000612-33b4b33b4d/Sn%C3%ADmek%20obrazovky%202026-11-18%20075233.png?ph=7ba15f7b7b"
-     ],
-     "imageOnly": true
+     "items": [
+      {
+       "type": "soup",
+       "name": "250ml Slepičí vývar s nudličkami",
+       "price": 35
+      },
+      {
+       "type": "main",
+       "name": "300g Koprová omáčka, vepřové maso, kynuté knedlíky",
+       "price": 150
+      }
+     ]
     },
     "2026-11-19": {
-     "items": [],
-     "images": [
-      "https://7ba15f7b7b.clvaw-cdnwnd.com/4c9a253347665455c5d067a206520631/200000612-33b4b33b4d/Sn%C3%ADmek%20obrazovky%202026-11-18%20075233.png?ph=7ba15f7b7b"
-     ],
-     "imageOnly": true
+     "items": [
+      {
+       "type": "soup",
+       "name": "250ml Zeleninová polévka s krupičkou",
+       "price": 35
+      },
+      {
+       "type": "main",
+       "name": "300g Kuřecí směs na žampionech s rýží",
+       "price": 150
+      }
+     ]
     },
     "2026-11-20": {
-     "items": [],
-     "images": [
-      "https://7ba15f7b7b.clvaw-cdnwnd.com/4c9a253347665455c5d067a206520631/200000612-33b4b33b4d/Sn%C3%ADmek%20obrazovky%202026-11-18%20075233.png?ph=7ba15f7b7b"
+     "items": [
+      {
+       "type": "soup",
+       "name": "Menu 1: 250ml Rybí polévka, krutony",
+       "price": 45
+      },
+      {
+       "type": "soup",
+       "name": "Menu 2: 250ml Slepičí vývar s nudličkami",
+       "price": 35
+      },
+      {
+       "type": "main",
+       "name": "Menu 1: 300g Smažený kapr s bramborovým salátem",
+       "price": 179
+      },
+      {
+       "type": "main",
+       "name": "Menu 2: 300g Smažený vepřový řízek s bramborovým salátem",
+       "price": 155
+      }
      ],
-     "imageOnly": true
+     "note": "Generálka na Vánoce – dvě menu."
     },
     "2026-11-03": {
      "items": [
@@ -997,6 +1178,20 @@
       {
        "type": "main",
        "name": "300g Francouzské brambory s uzeným masem",
+       "price": 150
+      }
+     ]
+    },
+    "2026-11-21": {
+     "items": [
+      {
+       "type": "soup",
+       "name": "250ml Cibulačka s krutony",
+       "price": 35
+      },
+      {
+       "type": "main",
+       "name": "300g Kuřecí plátek na medu, hranolky",
        "price": 150
       }
      ]

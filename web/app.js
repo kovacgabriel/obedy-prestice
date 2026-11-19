@@ -73,6 +73,9 @@ function card(r) {
       ...section('Hlavní jídla', it.filter((i) => i.type === 'main')),
       ...section('Nabídka na celý týden', it.filter((i) => i.type === 'weekly')),
       ...section('Svatomartinské menu', it.filter((i) => i.type === 'special')));
+    if (day.note) body.unshift(el('p', { class: 'daynote' }, day.note));
+  } else if (day?.closed) {
+    body.push(el('p', { class: 'empty' }, day.note || 'Zavřeno.'));
   } else if (r.closedWeekdays?.includes(weekday(selected)) && m.status === 'ok') {
     body.push(el('p', { class: 'empty' }, 'V tento den zavřeno.'));
   } else {

@@ -140,6 +140,78 @@
      "price": 150
     }
    ]
+  },
+  "2026-11-17": {
+   "items": [],
+   "closed": true,
+   "note": "Zavřeno – státní svátek."
+  },
+  "2026-11-18": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "250ml Slepičí vývar s nudličkami",
+     "price": 35
+    },
+    {
+     "type": "main",
+     "name": "300g Koprová omáčka, vepřové maso, kynuté knedlíky",
+     "price": 150
+    }
+   ]
+  },
+  "2026-11-19": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "250ml Zeleninová polévka s krupičkou",
+     "price": 35
+    },
+    {
+     "type": "main",
+     "name": "300g Kuřecí směs na žampionech s rýží",
+     "price": 150
+    }
+   ]
+  },
+  "2026-11-20": {
+   "note": "Generálka na Vánoce – dvě menu.",
+   "items": [
+    {
+     "type": "soup",
+     "name": "Menu 1: 250ml Rybí polévka, krutony",
+     "price": 45
+    },
+    {
+     "type": "soup",
+     "name": "Menu 2: 250ml Slepičí vývar s nudličkami",
+     "price": 35
+    },
+    {
+     "type": "main",
+     "name": "Menu 1: 300g Smažený kapr s bramborovým salátem",
+     "price": 179
+    },
+    {
+     "type": "main",
+     "name": "Menu 2: 300g Smažený vepřový řízek s bramborovým salátem",
+     "price": 155
+    }
+   ]
+  },
+  "2026-11-21": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "250ml Cibulačka s krutony",
+     "price": 35
+    },
+    {
+     "type": "main",
+     "name": "300g Kuřecí plátek na medu, hranolky",
+     "price": 150
+    }
+   ]
   }
  }
 }

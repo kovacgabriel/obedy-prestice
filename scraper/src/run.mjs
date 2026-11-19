@@ -22,7 +22,7 @@ for (const r of config.restaurants) {
     // ruční přepisy (config/manual/<id>.json) mají přednost před staženými daty pro dané dny
     try {
       const manual = JSON.parse(await readFile(resolve(root, `config/manual/${r.id}.json`), 'utf8'));
-      for (const [date, day] of Object.entries(manual.days || {})) out.days[date] = { items: day.items };
+      for (const [date, day] of Object.entries(manual.days || {})) out.days[date] = { items: day.items, ...(day.note && { note: day.note }), ...(day.closed && { closed: true }) };
       if (out.unsupported && Object.keys(manual.days || {}).length) out.unsupported = false;
     } catch (e) { if (e.code !== 'ENOENT') throw e; }
     results.push({ ...base, status: out.unsupported ? 'unsupported' : 'ok', lastOkAt: out.unsupported ? null : now, days: out.days, cache: out.cache });

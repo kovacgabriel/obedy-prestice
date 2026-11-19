@@ -405,6 +405,197 @@
      "price": 125
     }
    ]
+  },
+  "2026-11-16": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "Tomatový krém / nok ze zakysané smetany / čerstvé bylinky",
+     "price": 55
+    },
+    {
+     "type": "main",
+     "name": "150g Cikánská hovězí pečeně / rýže",
+     "price": 175
+    },
+    {
+     "type": "main",
+     "name": "1ks Pečená kuřecí čtvrtka / vařený brambor / nádivka",
+     "price": 169
+    },
+    {
+     "type": "main",
+     "name": "100g Uzená kotleta / sázené vejce / čočka / rozpek / kyselá okurka",
+     "price": 169
+    },
+    {
+     "type": "main",
+     "name": "150g Kuřecí kari s brokolicí a sezónní zeleninou / rýže X bramborové krokety",
+     "price": 179
+    },
+    {
+     "type": "weekly",
+     "name": "150g Hovězí vařené / křenová omáčka / žemlový knedlíček",
+     "price": 189
+    },
+    {
+     "type": "weekly",
+     "name": "200g Kachní prso / sous vide / šťouchaný brambor / višňová omáčka",
+     "price": 225
+    }
+   ]
+  },
+  "2026-11-17": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "Krémová česnečka s bramborem / máslové krutony",
+     "price": 55
+    },
+    {
+     "type": "main",
+     "name": "150g Hovězí guláš / houskový knedlík",
+     "price": 185
+    },
+    {
+     "type": "main",
+     "name": "1ks Kynutý knedlík BLBOUN plněný trhaným masem / kyselé zelí",
+     "price": 195
+    },
+    {
+     "type": "main",
+     "name": "350g Čerstvé špagety Agli olio e peperoncino / parmezán / čerstvá petržel",
+     "price": 179
+    },
+    {
+     "type": "weekly",
+     "name": "150g Hovězí vařené / křenová omáčka / žemlový knedlíček",
+     "price": 189
+    },
+    {
+     "type": "weekly",
+     "name": "200g Kachní prso / sous vide / šťouchaný brambor / višňová omáčka",
+     "price": 225
+    }
+   ],
+   "note": "Státní svátek, otevřeno od 11:00. Menu je doplněno nabídkou à la carte."
+  },
+  "2026-11-18": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "Hovězí vývar s masem / vaječnými nudlemi / kořenová zelenina",
+     "price": 45
+    },
+    {
+     "type": "main",
+     "name": "150g Krůtí guláš s houbami sypaný lahůdkovou cibulkou / těstoviny",
+     "price": 179
+    },
+    {
+     "type": "main",
+     "name": "200g Trhané vepřové maso na černém pivu / bramborová kaše / cibulová omáčka",
+     "price": 179
+    },
+    {
+     "type": "main",
+     "name": "350g Tagliatelle s kuřecím masem / sušenými rajčaty / baby špenátem / česnekem / kapkou smetany",
+     "price": 185
+    },
+    {
+     "type": "main",
+     "name": "420g Dukátové buchtičky s vanilkovým krémem",
+     "price": 145
+    },
+    {
+     "type": "weekly",
+     "name": "150g Hovězí vařené / křenová omáčka / žemlový knedlíček",
+     "price": 189
+    },
+    {
+     "type": "weekly",
+     "name": "200g Kachní prso / sous vide / šťouchaný brambor / višňová omáčka",
+     "price": 225
+    }
+   ]
+  },
+  "2026-11-19": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "Dršťková",
+     "price": 45
+    },
+    {
+     "type": "main",
+     "name": "1ks Španělský ptáček / houskový knedlík X rýže",
+     "price": 185
+    },
+    {
+     "type": "main",
+     "name": "150g Vepřový vrabec / hlávkové zelí / houskový knedlík",
+     "price": 169
+    },
+    {
+     "type": "main",
+     "name": "150g Čevapčiči / vařený brambor / hořčice / cibule / hrášek",
+     "price": 169
+    },
+    {
+     "type": "main",
+     "name": "150g Grilovaný filet z lososa / šalotková omáčka / bramborové krokety",
+     "price": 189
+    },
+    {
+     "type": "weekly",
+     "name": "150g Hovězí vařené / křenová omáčka / žemlový knedlíček",
+     "price": 189
+    },
+    {
+     "type": "weekly",
+     "name": "200g Kachní prso / sous vide / šťouchaný brambor / višňová omáčka",
+     "price": 225
+    }
+   ]
+  },
+  "2026-11-20": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "Hovězí vývar s játrovou roládou / kořenová zelenina",
+     "price": 45
+    },
+    {
+     "type": "main",
+     "name": "150g Medailonky z vepřové kotlety s pikantní zeleninovou směsí / hranolky",
+     "price": 179
+    },
+    {
+     "type": "main",
+     "name": "150g Vepřové maso / dušená mrkev / rozpek X vařený brambor",
+     "price": 165
+    },
+    {
+     "type": "main",
+     "name": "350g Čerstvé špagety s boloňskou směsí z mletého hovězího masa / parmezán",
+     "price": 179
+    },
+    {
+     "type": "main",
+     "name": "150g Kuřecí řízečky v cornflakes / bramborová kaše / fresh salátek",
+     "price": 179
+    },
+    {
+     "type": "weekly",
+     "name": "150g Hovězí vařené / křenová omáčka / žemlový knedlíček",
+     "price": 189
+    },
+    {
+     "type": "weekly",
+     "name": "200g Kachní prso / sous vide / šťouchaný brambor / višňová omáčka",
+     "price": 225
+    }
+   ]
   }
  }
 }
