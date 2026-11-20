@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-19T17:15:38.922Z",
+ "generatedAt": "2026-11-20T16:54:32.930Z",
  "restaurants": [
   {
    "id": "preskovo",
    "sourceUrl": "https://tadyjepreskovo.cz/",
-   "fetchedAt": "2026-11-19T17:15:38.922Z",
+   "fetchedAt": "2026-11-20T16:54:32.930Z",
    "status": "ok",
-   "lastOkAt": "2026-11-19T17:15:38.922Z",
+   "lastOkAt": "2026-11-20T16:54:32.930Z",
    "days": {
     "2026-11-16": {
      "items": [
@@ -354,15 +354,95 @@
        ]
       }
      ]
+    },
+    "2026-11-21": {
+     "items": [
+      {
+       "type": "soup",
+       "name": "Tomatová polévka s bazalkovým pestem a parmazánem",
+       "price": 65,
+       "allergens": [
+        "7",
+        "8"
+       ],
+       "tags": [
+        "bezlepkové"
+       ]
+      },
+      {
+       "type": "main",
+       "name": "Srnčí ragú na červeném víně, celerovo-bramborová kaše, máslová zelenina",
+       "price": 259,
+       "allergens": [
+        "7",
+        "9",
+        "12"
+       ],
+       "tags": [
+        "bezlepkové"
+       ]
+      },
+      {
+       "type": "main",
+       "name": "Uzená krkovička, restované špecle s dušeným bílým zelím",
+       "price": 195,
+       "allergens": [
+        "1",
+        "3",
+        "7"
+       ],
+       "tags": []
+      }
+     ]
+    },
+    "2026-11-22": {
+     "items": [
+      {
+       "type": "soup",
+       "name": "Tomatová polévka s bazalkovým pestem a parmazánem",
+       "price": 65,
+       "allergens": [
+        "7",
+        "8"
+       ],
+       "tags": [
+        "bezlepkové"
+       ]
+      },
+      {
+       "type": "main",
+       "name": "Srnčí ragú na červeném víně, celerovo-bramborová kaše, máslová zelenina",
+       "price": 259,
+       "allergens": [
+        "7",
+        "9",
+        "12"
+       ],
+       "tags": [
+        "bezlepkové"
+       ]
+      },
+      {
+       "type": "main",
+       "name": "Uzená krkovička, restované špecle s dušeným bílým zelím",
+       "price": 195,
+       "allergens": [
+        "1",
+        "3",
+        "7"
+       ],
+       "tags": []
+      }
+     ]
     }
    }
   },
   {
    "id": "crossroad",
    "sourceUrl": "https://crossroadrestaurant.cz/",
-   "fetchedAt": "2026-11-19T17:15:38.922Z",
+   "fetchedAt": "2026-11-20T16:54:32.930Z",
    "status": "ok",
-   "lastOkAt": "2026-11-19T17:15:38.922Z",
+   "lastOkAt": "2026-11-20T16:54:32.930Z",
    "days": {
     "2026-11-16": {
      "items": [
@@ -980,9 +1060,9 @@
   {
    "id": "hajecek",
    "sourceUrl": "https://www.cukrarnavhajecku.cz/poledni-menu/",
-   "fetchedAt": "2026-11-19T17:15:38.922Z",
+   "fetchedAt": "2026-11-20T16:54:32.930Z",
    "status": "ok",
-   "lastOkAt": "2026-11-19T17:15:38.922Z",
+   "lastOkAt": "2026-11-20T16:54:32.930Z",
    "days": {
     "2026-11-17": {
      "items": [],
