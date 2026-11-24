@@ -596,6 +596,201 @@
      "price": 225
     }
    ]
+  },
+  "2026-11-23": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "Hovězí vývar s vaječným svítkem / kořenová zelenina",
+     "price": 55
+    },
+    {
+     "type": "main",
+     "name": "150g Pikantní směs z vepřové panenky se zeleninou / naše bramboráčky",
+     "price": 175
+    },
+    {
+     "type": "main",
+     "name": "150g Nadívaný bůček / bramborová kaše s hořčičným semínkem / salátek",
+     "price": 169
+    },
+    {
+     "type": "main",
+     "name": "400g Zapečené flíčky s uzeným masem / kyselá okurka",
+     "price": 169
+    },
+    {
+     "type": "main",
+     "name": "1ks QUESADILLA s kuřecím masem / čedarem / koriandrem / hranolky / jogurtový dip",
+     "price": 179
+    },
+    {
+     "type": "weekly",
+     "name": "150g Vepřový perkelt s česnekem / rajčaty a paprikou / podávaný s našimi špecemi",
+     "price": 179
+    },
+    {
+     "type": "weekly",
+     "name": "150g Kuřecí kořeněné placičky na zeleninovém salátu s rozpečenou ciabattou / jogurtový dip",
+     "price": 185
+    }
+   ]
+  },
+  "2026-11-24": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "Frankfurtská",
+     "price": 55
+    },
+    {
+     "type": "main",
+     "name": "150g Plzeňský guláš s vařeným vajíčkem a cibulkou / houskový knedlík",
+     "price": 175
+    },
+    {
+     "type": "main",
+     "name": "150g Vepřové výpečky / špenát / bramborový knedlík",
+     "price": 169
+    },
+    {
+     "type": "main",
+     "name": "150g Smažený karbanátek / máslová bramborová kaše / salát z kyselých okurek",
+     "price": 169
+    },
+    {
+     "type": "main",
+     "name": "350g Špagety „MARRY ME“ / filírované kuřecí prso",
+     "price": 175
+    },
+    {
+     "type": "weekly",
+     "name": "150g Vepřový perkelt s česnekem / rajčaty a paprikou / podávaný s našimi špecemi",
+     "price": 179
+    },
+    {
+     "type": "weekly",
+     "name": "150g Kuřecí kořeněné placičky na zeleninovém salátu s rozpečenou ciabattou / jogurtový dip",
+     "price": 185
+    }
+   ]
+  },
+  "2026-11-25": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "Kuřecí vývar s masem / těstovinou / kořenová zelenina",
+     "price": 45
+    },
+    {
+     "type": "main",
+     "name": "150g Hovězí trhané maso / koprová omáčka / houskový knedlík",
+     "price": 179
+    },
+    {
+     "type": "main",
+     "name": "1ks Pečená kachní čtvrtka / červené zelí / bramborový knedlík",
+     "price": 189
+    },
+    {
+     "type": "main",
+     "name": "350g UDON nudle s kuřecím masem / asijskou zeleninou / ústřičnou omáčkou",
+     "price": 179
+    },
+    {
+     "type": "main",
+     "name": "180g Grilovaná vepřová panenka / bramborové pyré / smetanová omáčka se směsí hub",
+     "price": 185
+    },
+    {
+     "type": "weekly",
+     "name": "150g Vepřový perkelt s česnekem / rajčaty a paprikou / podávaný s našimi špecemi",
+     "price": 179
+    },
+    {
+     "type": "weekly",
+     "name": "150g Kuřecí kořeněné placičky na zeleninovém salátu s rozpečenou ciabattou / jogurtový dip",
+     "price": 185
+    }
+   ]
+  },
+  "2026-11-26": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "Krémová česnečka s bramborem a máslovými krutony",
+     "price": 45
+    },
+    {
+     "type": "main",
+     "name": "150g Ragů z kuřecích stehen ve smetanové omáčce s karotkou / řapíkatým celerem a slaninou / jasmínová rýže X hranolky",
+     "price": 179
+    },
+    {
+     "type": "main",
+     "name": "½ Pečené vepřové koleno / sous vide / kysané zelí / variace knedlíků",
+     "price": 179
+    },
+    {
+     "type": "main",
+     "name": "350g Milánské špagety / strouhaný sýr",
+     "price": 169
+    },
+    {
+     "type": "main",
+     "name": "100g Smažená niva v trojobalu / mačkaný brambor s máslem / tatarská omáčka",
+     "price": 169
+    },
+    {
+     "type": "weekly",
+     "name": "150g Vepřový perkelt s česnekem / rajčaty a paprikou / podávaný s našimi špecemi",
+     "price": 179
+    },
+    {
+     "type": "weekly",
+     "name": "150g Kuřecí kořeněné placičky na zeleninovém salátu s rozpečenou ciabattou / jogurtový dip",
+     "price": 185
+    }
+   ]
+  },
+  "2026-11-27": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "Hovězí vývar s játrovou rýží / kořenová zelenina",
+     "price": 45
+    },
+    {
+     "type": "main",
+     "name": "150g Svíčková z hovězího masa / houskový knedlík",
+     "price": 179
+    },
+    {
+     "type": "main",
+     "name": "120g Smažené kuřecí prso X smažená vepřová krkovička / bramborový salát",
+     "price": 175
+    },
+    {
+     "type": "main",
+     "name": "350g Jemné hříbkové rizoto / parmezán / čerstvá rukola",
+     "price": 169
+    },
+    {
+     "type": "main",
+     "name": "5ks Tvarohové borůvkové knedlíky sypané strouhaným tvarohem / cukrem / maštěné máslem",
+     "price": 175
+    },
+    {
+     "type": "weekly",
+     "name": "150g Vepřový perkelt s česnekem / rajčaty a paprikou / podávaný s našimi špecemi",
+     "price": 179
+    },
+    {
+     "type": "weekly",
+     "name": "150g Kuřecí kořeněné placičky na zeleninovém salátu s rozpečenou ciabattou / jogurtový dip",
+     "price": 185
+    }
+   ]
   }
  }
 }

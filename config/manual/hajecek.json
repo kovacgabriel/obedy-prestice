@@ -212,6 +212,76 @@
      "price": 150
     }
    ]
+  },
+  "2026-11-24": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "250ml Slepičí vývar s kapáním",
+     "price": 35
+    },
+    {
+     "type": "main",
+     "name": "300g Plzeňský guláš, kynuté knedlíky",
+     "price": 155
+    }
+   ]
+  },
+  "2026-11-25": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "250ml Květáková polévka",
+     "price": 35
+    },
+    {
+     "type": "main",
+     "name": "300g Karbanátky, bramborová kaše, okurkový salát",
+     "price": 155
+    }
+   ]
+  },
+  "2026-11-26": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "250ml Hrachová polévka s krutony",
+     "price": 35
+    },
+    {
+     "type": "main",
+     "name": "300g Zapečené rizoto s vepřovým masem, sýr, kyselá okurka",
+     "price": 150
+    }
+   ]
+  },
+  "2026-11-27": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "250ml Slepičí vývar s vaječnou jíškou",
+     "price": 35
+    },
+    {
+     "type": "main",
+     "name": "300g Vepřová svíčková, kynuté knedlíky",
+     "price": 155
+    }
+   ]
+  },
+  "2026-11-28": {
+   "items": [
+    {
+     "type": "soup",
+     "name": "250ml Česnečka se sýrem a vajíčkem",
+     "price": 35
+    },
+    {
+     "type": "main",
+     "name": "300g Kuřecí směs s kukuřicí a fazolemi, hranolky",
+     "price": 150
+    }
+   ]
   }
  }
 }
